@@ -1,6 +1,1600 @@
 # Changelog
 
 
+## [v1.3.10](https://github.com/honghuangdc/soybean-admin/compare/v1.3.9...v1.3.10) (2024-12-16)
+
+### &nbsp;&nbsp;&nbsp;🚀 Features
+
+- **projects**: support show tab when not loggedIn &nbsp;-&nbsp; by @soybeanjs [<samp>(ba381)</samp>](https://github.com/honghuangdc/soybean-admin/commit/ba38119)
+
+### &nbsp;&nbsp;&nbsp;🐞 Bug Fixes
+
+- **deps**:
+  - reduced eslint version to 9.14.0 &nbsp;-&nbsp; by @soybeanjs [<samp>(af417)</samp>](https://github.com/honghuangdc/soybean-admin/commit/af4177e)
+- **projects**:
+  - fix route guard hook `onRouteSwitchWhenLoggedIn`. fixed #680 &nbsp;-&nbsp; by @soybeanjs in https://github.com/honghuangdc/soybean-admin/issues/680 [<samp>(ab985)</samp>](https://github.com/honghuangdc/soybean-admin/commit/ab9858c)
+  - check if init userInfo when initAuthRoute. fixed #680 &nbsp;-&nbsp; by @soybeanjs in https://github.com/honghuangdc/soybean-admin/issues/680 [<samp>(9f4fb)</samp>](https://github.com/honghuangdc/soybean-admin/commit/9f4fb8c)
+
+### &nbsp;&nbsp;&nbsp;🛠 Optimizations
+
+- **projects**:
+  - optimize router guard &nbsp;-&nbsp; by @soybeanjs [<samp>(0dfcf)</samp>](https://github.com/honghuangdc/soybean-admin/commit/0dfcf18)
+  - use `defu` to fill added theme config &nbsp;-&nbsp; by @soybeanjs [<samp>(101b6)</samp>](https://github.com/honghuangdc/soybean-admin/commit/101b6f9)
+
+### &nbsp;&nbsp;&nbsp;📖 Documentation
+
+- **projects**: ✏️  add element-plus version link &nbsp;-&nbsp; by **一寸灰** in https://github.com/honghuangdc/soybean-admin/issues/679 [<samp>(5c6ab)</samp>](https://github.com/honghuangdc/soybean-admin/commit/5c6ab0b)
+
+### &nbsp;&nbsp;&nbsp;🏡 Chore
+
+- rename env.d.ts to vite-env.d.ts &nbsp;-&nbsp; by @wzc520pyfm in https://github.com/honghuangdc/soybean-admin/issues/675 [<samp>(b93c2)</samp>](https://github.com/honghuangdc/soybean-admin/commit/b93c203)
+- **projects**: update deps & fix vite config &nbsp;-&nbsp; by @soybeanjs [<samp>(3e0eb)</samp>](https://github.com/honghuangdc/soybean-admin/commit/3e0eb72)
+
+### &nbsp;&nbsp;&nbsp;❤️ Contributors
+
+[![soybeanjs](https://github.com/soybeanjs.png?size=48)](https://github.com/soybeanjs)&nbsp;&nbsp;[![wzc520pyfm](https://github.com/wzc520pyfm.png?size=48)](https://github.com/wzc520pyfm)&nbsp;&nbsp;
+[一寸灰](mailto:webzhangfei@163.com),&nbsp;
+
+## [v1.3.9](https://github.com/soybeanjs/soybean-admin/compare/v1.3.8...v1.3.9) (2024-11-17)
+
+### &nbsp;&nbsp;&nbsp;🚀 Features
+
+- **projects**:
+  - support scheduled detection and update system. close #657 &nbsp;-&nbsp; by **青菜白玉汤** in https://github.com/soybeanjs/soybean-admin/issues/669 and https://github.com/soybeanjs/soybean-admin/issues/657 [<samp>(d088f)</samp>](https://github.com/soybeanjs/soybean-admin/commit/d088f81)
+  - app version notification plugin support sub deploy path. close #668 &nbsp;-&nbsp; by **Soybean** in https://github.com/soybeanjs/soybean-admin/issues/668 [<samp>(a53eb)</samp>](https://github.com/soybeanjs/soybean-admin/commit/a53eb10)
+
+### &nbsp;&nbsp;&nbsp;🛠 Optimizations
+
+- **projects**: optimize code &nbsp;-&nbsp; by **Soybean** [<samp>(9ad5d)</samp>](https://github.com/soybeanjs/soybean-admin/commit/9ad5d71)
+
+### &nbsp;&nbsp;&nbsp;💅 Refactors
+
+- **projects**: refactor router guard. fix #655 &nbsp;-&nbsp; by **Soybean** in https://github.com/soybeanjs/soybean-admin/issues/667 and https://github.com/soybeanjs/soybean-admin/issues/655 [<samp>(09144)</samp>](https://github.com/soybeanjs/soybean-admin/commit/09144df)
+
+### &nbsp;&nbsp;&nbsp;📖 Documentation
+
+- **projects**: set the Chinese version of README as default &nbsp;-&nbsp; by **Soybean** [<samp>(9d28b)</samp>](https://github.com/soybeanjs/soybean-admin/commit/9d28b31)
+
+### &nbsp;&nbsp;&nbsp;🏡 Chore
+
+- **deps**:
+  - update deps &nbsp;-&nbsp; by **Soybean** [<samp>(91de4)</samp>](https://github.com/soybeanjs/soybean-admin/commit/91de4a8)
+  - update deps &nbsp;-&nbsp; by **Soybean** [<samp>(0c809)</samp>](https://github.com/soybeanjs/soybean-admin/commit/0c809de)
+- **projects**:
+  - add desc for base url of app &nbsp;-&nbsp; by **Soybean** [<samp>(17d7e)</samp>](https://github.com/soybeanjs/soybean-admin/commit/17d7e52)
+
+### &nbsp;&nbsp;&nbsp;❤️ Contributors
+
+
+[Soybean](mailto:soybeanjs@outlook.com),&nbsp;[青菜白玉汤](mailto:79054161+Azir-11@users.noreply.github.com)
+
+## [v1.3.8](https://github.com/soybeanjs/soybean-admin/compare/v1.3.7...v1.3.8) (2024-10-25)
+
+### &nbsp;&nbsp;&nbsp;🚨 Breaking Changes
+
+- **projects**: refactor route cache & support reset route cache strategy &nbsp;-&nbsp; by @soybeanjs [<samp>(b667e)</samp>](https://github.com/soybeanjs/soybean-admin/commit/b667eab)
+
+### &nbsp;&nbsp;&nbsp;🚀 Features
+
+- **packages**:
+  - add subpackage `@sa/alova` &nbsp;-&nbsp; by @JOU-amjs in https://github.com/soybeanjs/soybean-admin/issues/640 [<samp>(2072f)</samp>](https://github.com/soybeanjs/soybean-admin/commit/2072f58)
+  - optimistic subpackage `@sa/alova` &nbsp;-&nbsp; by @JOU-amjs in https://github.com/soybeanjs/soybean-admin/issues/646 [<samp>(4b3ac)</samp>](https://github.com/soybeanjs/soybean-admin/commit/4b3ac11)
+- **projects**:
+  - login supports accessible operation. &nbsp;-&nbsp; by @Azir-11 in https://github.com/soybeanjs/soybean-admin/issues/637 [<samp>(cfaab)</samp>](https://github.com/soybeanjs/soybean-admin/commit/cfaab85)
+
+### &nbsp;&nbsp;&nbsp;🐞 Bug Fixes
+
+- **utils**: fix `isPC`. fixed #644 &nbsp;-&nbsp; by @soybeanjs in https://github.com/soybeanjs/soybean-admin/issues/644 [<samp>(47264)</samp>](https://github.com/soybeanjs/soybean-admin/commit/4726498)
+
+### &nbsp;&nbsp;&nbsp;🏡 Chore
+
+- **deps**:
+  - update deps &nbsp;-&nbsp; by @soybeanjs [<samp>(8dcda)</samp>](https://github.com/soybeanjs/soybean-admin/commit/8dcda38)
+- **projects**:
+  - update vscode extensions &nbsp;-&nbsp; by @soybeanjs [<samp>(24bb6)</samp>](https://github.com/soybeanjs/soybean-admin/commit/24bb6d9)
+  - update deps & fix sass usage &nbsp;-&nbsp; by @soybeanjs [<samp>(71e63)</samp>](https://github.com/soybeanjs/soybean-admin/commit/71e6307)
+- **types**:
+  - remove type declaration for document.startViewTransition (TypeScript 5.6 includes it) &nbsp;-&nbsp; by @NHZEX in https://github.com/soybeanjs/soybean-admin/issues/633 [<samp>(83ba7)</samp>](https://github.com/soybeanjs/soybean-admin/commit/83ba798)
+
+### &nbsp;&nbsp;&nbsp;🎨 Styles
+
+- **projects**: reduce ambiguity in theme configuration instructions. &nbsp;-&nbsp; by @Azir-11 [<samp>(75cbf)</samp>](https://github.com/soybeanjs/soybean-admin/commit/75cbfbb)
+
+### &nbsp;&nbsp;&nbsp;❤️ Contributors
+
+[![soybeanjs](https://github.com/soybeanjs.png?size=48)](https://github.com/soybeanjs)&nbsp;&nbsp;[![JOU-amjs](https://github.com/JOU-amjs.png?size=48)](https://github.com/JOU-amjs)&nbsp;&nbsp;[![Azir-11](https://github.com/Azir-11.png?size=48)](https://github.com/Azir-11)&nbsp;&nbsp;[![NHZEX](https://github.com/NHZEX.png?size=48)](https://github.com/NHZEX)&nbsp;&nbsp;
+
+## [v1.3.7](https://github.com/soybeanjs/soybean-admin/compare/v1.3.6...v1.3.7) (2024-09-21)
+
+### &nbsp;&nbsp;&nbsp;🚨 Breaking Changes
+
+- **projects**: update scss config &nbsp;-&nbsp; by @soybeanjs [<samp>(24e9e)</samp>](https://github.com/soybeanjs/soybean-admin/commit/24e9e57)
+
+### &nbsp;&nbsp;&nbsp;🐞 Bug Fixes
+
+- **projects**: fix global-tab click conflict with contextmenu &nbsp;-&nbsp; by @soybeanjs [<samp>(3e72c)</samp>](https://github.com/soybeanjs/soybean-admin/commit/3e72c3b)
+
+### &nbsp;&nbsp;&nbsp;💅 Refactors
+
+- **packages**: @sa/materials: remove tab close shortcut by mouse &nbsp;-&nbsp; by @soybeanjs [<samp>(4da58)</samp>](https://github.com/soybeanjs/soybean-admin/commit/4da588c)
+
+### &nbsp;&nbsp;&nbsp;🏡 Chore
+
+- **deps**: update deps &nbsp;-&nbsp; by @soybeanjs [<samp>(baefd)</samp>](https://github.com/soybeanjs/soybean-admin/commit/baefdfd)
+
+### &nbsp;&nbsp;&nbsp;❤️ Contributors
+
+[![soybeanjs](https://github.com/soybeanjs.png?size=48)](https://github.com/soybeanjs)&nbsp;&nbsp;
+
+## [v1.3.6](https://github.com/soybeanjs/soybean-admin/compare/v1.3.5...v1.3.6) (2024-09-20)
+
+### &nbsp;&nbsp;&nbsp;🐞 Bug Fixes
+
+- **components**:
+  - fix VerticalMixMenu name &nbsp;-&nbsp; by @soybeanjs [<samp>(20f8e)</samp>](https://github.com/soybeanjs/soybean-admin/commit/20f8ed3)
+- **projects**:
+  - fix click global-tab in iPad. fixed #624 &nbsp;-&nbsp; by @soybeanjs in https://github.com/soybeanjs/soybean-admin/issues/624 [<samp>(04d05)</samp>](https://github.com/soybeanjs/soybean-admin/commit/04d0564)
+  - when the roles filter submenu is empty, the parent menu is not excluded. fixed #621. &nbsp;-&nbsp; by @Azir-11 in https://github.com/soybeanjs/soybean-admin/issues/626 and https://github.com/soybeanjs/soybean-admin/issues/621 [<samp>(0ac95)</samp>](https://github.com/soybeanjs/soybean-admin/commit/0ac95bd)
+
+### &nbsp;&nbsp;&nbsp;🛠 Optimizations
+
+- **projects**:
+  - optimize code &nbsp;-&nbsp; by @soybeanjs [<samp>(6561f)</samp>](https://github.com/soybeanjs/soybean-admin/commit/6561f0b)
+  - optimize code &nbsp;-&nbsp; by @soybeanjs [<samp>(38eeb)</samp>](https://github.com/soybeanjs/soybean-admin/commit/38eeb67)
+  - remove defineModel setting，enabled by default &nbsp;-&nbsp; by @yanbowe in https://github.com/soybeanjs/soybean-admin/issues/620 [<samp>(60bbd)</samp>](https://github.com/soybeanjs/soybean-admin/commit/60bbd2d)
+
+### &nbsp;&nbsp;&nbsp;📖 Documentation
+
+- **projects**: update CHANGELOG &nbsp;-&nbsp; by @soybeanjs [<samp>(5baf1)</samp>](https://github.com/soybeanjs/soybean-admin/commit/5baf19d)
+
+### &nbsp;&nbsp;&nbsp;🏡 Chore
+
+- **deps**:
+  - update deps &nbsp;-&nbsp; by @soybeanjs [<samp>(207d6)</samp>](https://github.com/soybeanjs/soybean-admin/commit/207d6eb)
+  - update deps &nbsp;-&nbsp; by @soybeanjs [<samp>(f3562)</samp>](https://github.com/soybeanjs/soybean-admin/commit/f35627e)
+
+### &nbsp;&nbsp;&nbsp;❤️ Contributors
+
+[![soybeanjs](https://github.com/soybeanjs.png?size=48)](https://github.com/soybeanjs)&nbsp;&nbsp;[![Azir-11](https://github.com/Azir-11.png?size=48)](https://github.com/Azir-11)&nbsp;&nbsp;[![yanbowe](https://github.com/yanbowe.png?size=48)](https://github.com/yanbowe)&nbsp;&nbsp;
+
+## [v1.3.5](https://github.com/soybeanjs/soybean-admin/compare/v1.3.4...v1.3.5) (2024-09-07)
+
+### &nbsp;&nbsp;&nbsp;🚀 Features
+
+- **packages**:
+  - @sa/axios: add response to flatRequest when success &nbsp;-&nbsp; by @soybeanjs [<samp>(c4e16)</samp>](https://github.com/soybeanjs/soybean-admin/commit/c4e1610)
+- **projects**:
+  - README.zh_CN.md 添加合作推广 &nbsp;-&nbsp; by @PZ-18664918826 in https://github.com/soybeanjs/soybean-admin/issues/601 [<samp>(2fa40)</samp>](https://github.com/soybeanjs/soybean-admin/commit/2fa400b)
+  - Add more commit types according to Apache specifications &nbsp;-&nbsp; by @Azir-11 in https://github.com/soybeanjs/soybean-admin/issues/610 [<samp>(878d9)</samp>](https://github.com/soybeanjs/soybean-admin/commit/878d9c3)
+  - does the configuration support automatic updates. close#612 &nbsp;-&nbsp; by @Azir-11 in https://github.com/soybeanjs/soybean-admin/issues/617 and https://github.com/soybeanjs/soybean-admin/issues/612 [<samp>(4c9f4)</samp>](https://github.com/soybeanjs/soybean-admin/commit/4c9f4e0)
+  - add app error handler. close #587 &nbsp;-&nbsp; by @soybeanjs in https://github.com/soybeanjs/soybean-admin/issues/587 [<samp>(be855)</samp>](https://github.com/soybeanjs/soybean-admin/commit/be8556c)
+
+### &nbsp;&nbsp;&nbsp;🐞 Bug Fixes
+
+- **deps**:
+  - move json5 from devDependencies to dependencies to support production usage &nbsp;-&nbsp; by @mufeng889 in https://github.com/soybeanjs/soybean-admin/issues/618 [<samp>(7cb43)</samp>](https://github.com/soybeanjs/soybean-admin/commit/7cb43fc)
+- **projects**:
+  - avoid retrieving cached HTML &nbsp;-&nbsp; by @Azir-11 in https://github.com/soybeanjs/soybean-admin/issues/605 [<samp>(ef6cf)</samp>](https://github.com/soybeanjs/soybean-admin/commit/ef6cf93)
+  - fix login redirect &nbsp;-&nbsp; by @soybeanjs [<samp>(3830e)</samp>](https://github.com/soybeanjs/soybean-admin/commit/3830ec7)
+  - fix vertical-mix-menu when sider collapse. fixed #608 &nbsp;-&nbsp; by @soybeanjs in https://github.com/soybeanjs/soybean-admin/issues/608 [<samp>(c3f1f)</samp>](https://github.com/soybeanjs/soybean-admin/commit/c3f1f69)
+  - fix breadcrumb when activeMenu is parent menu. fixed #589 &nbsp;-&nbsp; by @soybeanjs in https://github.com/soybeanjs/soybean-admin/issues/589 [<samp>(79b2a)</samp>](https://github.com/soybeanjs/soybean-admin/commit/79b2a28)
+  - fix refresh token when meet multi requests. fixed #581 &nbsp;-&nbsp; by @soybeanjs in https://github.com/soybeanjs/soybean-admin/issues/581 [<samp>(27b52)</samp>](https://github.com/soybeanjs/soybean-admin/commit/27b5222)
+- **types**:
+  - fix the type of TableApiFn &nbsp;-&nbsp; by @Azir-11 in https://github.com/soybeanjs/soybean-admin/issues/599 [<samp>(26c93)</samp>](https://github.com/soybeanjs/soybean-admin/commit/26c93df)
+
+### &nbsp;&nbsp;&nbsp;🛠 Optimizations
+
+- **projects**: optimize menu selectedKey &nbsp;-&nbsp; by @soybeanjs [<samp>(531bf)</samp>](https://github.com/soybeanjs/soybean-admin/commit/531bfaf)
+
+### &nbsp;&nbsp;&nbsp;📖 Documentation
+
+- **projects**:
+  - update README &nbsp;-&nbsp; by @mufeng889 in https://github.com/soybeanjs/soybean-admin/issues/594 [<samp>(a8f92)</samp>](https://github.com/soybeanjs/soybean-admin/commit/a8f923e)
+  - update README &nbsp;-&nbsp; by @soybeanjs [<samp>(e9a2e)</samp>](https://github.com/soybeanjs/soybean-admin/commit/e9a2ee4)
+  - update README &nbsp;-&nbsp; by @soybeanjs [<samp>(73e91)</samp>](https://github.com/soybeanjs/soybean-admin/commit/73e917a)
+  - update the location of important information in the document &nbsp;-&nbsp; by **Azir** [<samp>(9c012)</samp>](https://github.com/soybeanjs/soybean-admin/commit/9c012c7)
+
+### &nbsp;&nbsp;&nbsp;🏡 Chore
+
+- **deps**:
+  - update deps &nbsp;-&nbsp; by @soybeanjs [<samp>(a1c14)</samp>](https://github.com/soybeanjs/soybean-admin/commit/a1c14a1)
+  - update deps &nbsp;-&nbsp; by @soybeanjs [<samp>(7fa55)</samp>](https://github.com/soybeanjs/soybean-admin/commit/7fa5590)
+  - update deps &nbsp;-&nbsp; by @soybeanjs [<samp>(a44ea)</samp>](https://github.com/soybeanjs/soybean-admin/commit/a44ea62)
+- **projects**:
+  - use json5 resolve env `VITE_OTHER_SERVICE_BASE_URL` & fix proxy enable &nbsp;-&nbsp; by @soybeanjs [<samp>(b16a9)</samp>](https://github.com/soybeanjs/soybean-admin/commit/b16a963)
+
+### &nbsp;&nbsp;&nbsp;🎨 Styles
+
+- **projects**: rename script czh to commit:zh &nbsp;-&nbsp; by @Azir-11 in https://github.com/soybeanjs/soybean-admin/issues/597 [<samp>(5094f)</samp>](https://github.com/soybeanjs/soybean-admin/commit/5094f0e)
+
+### &nbsp;&nbsp;&nbsp;❤️ Contributors
+
+[![soybeanjs](https://github.com/soybeanjs.png?size=48)](https://github.com/soybeanjs)&nbsp;&nbsp;[![mufeng889](https://github.com/mufeng889.png?size=48)](https://github.com/mufeng889)&nbsp;&nbsp;[![Azir-11](https://github.com/Azir-11.png?size=48)](https://github.com/Azir-11)&nbsp;&nbsp;[![PZ-18664918826](https://github.com/PZ-18664918826.png?size=48)](https://github.com/PZ-18664918826)&nbsp;&nbsp;
+[Azir](mailto:2075125282@qq.com),&nbsp;
+
+## [v1.3.4](https://github.com/honghuangdc/soybean-admin/compare/v1.3.3...v1.3.4) (2024-08-01)
+
+### &nbsp;&nbsp;&nbsp;🚨 Breaking Changes
+
+- **projects**: don't reset active menu of vertical-mix layout when it is mixSiderFixed &nbsp;-&nbsp; by @honghuangdc [<samp>(939c5)</samp>](https://github.com/honghuangdc/soybean-admin/commit/939c512)
+
+### &nbsp;&nbsp;&nbsp;🛠 Optimizations
+
+- **projects**: optimize code &nbsp;-&nbsp; by @honghuangdc [<samp>(cb1d4)</samp>](https://github.com/honghuangdc/soybean-admin/commit/cb1d445)
+
+### &nbsp;&nbsp;&nbsp;🏡 Chore
+
+- **projects**: update deps & fix vue-router type &nbsp;-&nbsp; by @honghuangdc [<samp>(96837)</samp>](https://github.com/honghuangdc/soybean-admin/commit/968370b)
+
+### &nbsp;&nbsp;&nbsp;❤️ Contributors
+
+[![honghuangdc](https://github.com/honghuangdc.png?size=48)](https://github.com/honghuangdc)&nbsp;&nbsp;
+
+## [v1.3.3](https://github.com/honghuangdc/soybean-admin/compare/v1.3.2...v1.3.3) (2024-07-30)
+
+### &nbsp;&nbsp;&nbsp;🐞 Bug Fixes
+
+- **projects**: fix watermark settings &nbsp;-&nbsp; by @honghuangdc [<samp>(5646a)</samp>](https://github.com/honghuangdc/soybean-admin/commit/5646a50)
+
+### &nbsp;&nbsp;&nbsp;📖 Documentation
+
+- **projects**: update CHANGELOG &nbsp;-&nbsp; by @honghuangdc [<samp>(ebc83)</samp>](https://github.com/honghuangdc/soybean-admin/commit/ebc838c)
+
+### &nbsp;&nbsp;&nbsp;❤️ Contributors
+
+[![honghuangdc](https://github.com/honghuangdc.png?size=48)](https://github.com/honghuangdc)&nbsp;&nbsp;
+
+## [v1.3.2](https://github.com/honghuangdc/soybean-admin/compare/v1.3.1...v1.3.2) (2024-07-30)
+
+### &nbsp;&nbsp;&nbsp;🚀 Features
+
+- **projects**:
+  - add color fading mode.close #567 &nbsp;-&nbsp; by @Azir-11 in https://github.com/honghuangdc/soybean-admin/issues/569 and https://github.com/honghuangdc/soybean-admin/issues/567 [<samp>(4dde4)</samp>](https://github.com/honghuangdc/soybean-admin/commit/4dde4c2)
+  - add full screen watermark. close#571 &nbsp;-&nbsp; by @paynezhuang in https://github.com/honghuangdc/soybean-admin/issues/573 and https://github.com/honghuangdc/soybean-admin/issues/571 [<samp>(ea8aa)</samp>](https://github.com/honghuangdc/soybean-admin/commit/ea8aa6c)
+
+### &nbsp;&nbsp;&nbsp;🐞 Bug Fixes
+
+- **projects**: fix vertical-mix menu selected &nbsp;-&nbsp; by @honghuangdc [<samp>(59f07)</samp>](https://github.com/honghuangdc/soybean-admin/commit/59f07d8)
+
+### &nbsp;&nbsp;&nbsp;🛠 Optimizations
+
+- **projects**:
+  - add type WatermarkProps &nbsp;-&nbsp; by @honghuangdc [<samp>(f26d0)</samp>](https://github.com/honghuangdc/soybean-admin/commit/f26d0a6)
+  - remove home NAlert closable &nbsp;-&nbsp; by @honghuangdc [<samp>(98b75)</samp>](https://github.com/honghuangdc/soybean-admin/commit/98b75c2)
+  - optimize response code comparison &nbsp;-&nbsp; by @honghuangdc [<samp>(cf67d)</samp>](https://github.com/honghuangdc/soybean-admin/commit/cf67d55)
+- **types**:
+  - remove useless types. &nbsp;-&nbsp; by **Azir** [<samp>(eed61)</samp>](https://github.com/honghuangdc/soybean-admin/commit/eed617f)
+
+### &nbsp;&nbsp;&nbsp;📖 Documentation
+
+- **projects**: update CHANGELOG &nbsp;-&nbsp; by @honghuangdc [<samp>(d3759)</samp>](https://github.com/honghuangdc/soybean-admin/commit/d37591d)
+
+### &nbsp;&nbsp;&nbsp;🏡 Chore
+
+- **deps**: update deps &nbsp;-&nbsp; by @honghuangdc [<samp>(993e9)</samp>](https://github.com/honghuangdc/soybean-admin/commit/993e9ca)
+
+### &nbsp;&nbsp;&nbsp;❤️ Contributors
+
+[![honghuangdc](https://github.com/honghuangdc.png?size=48)](https://github.com/honghuangdc)&nbsp;&nbsp;[![paynezhuang](https://github.com/paynezhuang.png?size=48)](https://github.com/paynezhuang)&nbsp;&nbsp;[![Azir-11](https://github.com/Azir-11.png?size=48)](https://github.com/Azir-11)&nbsp;&nbsp;
+[Azir](mailto:2075125282@qq.com),&nbsp;
+
+## [v1.3.1](https://github.com/honghuangdc/soybean-admin/compare/v1.3.0...v1.3.1) (2024-07-22)
+
+### &nbsp;&nbsp;&nbsp;🐞 Bug Fixes
+
+- **projects**:
+  - fix the issue of abnormal width of the sidebar in the top menu mix and reverse mode &nbsp;-&nbsp; by @Azir-11 in https://github.com/honghuangdc/soybean-admin/issues/562 [<samp>(c4695)</samp>](https://github.com/honghuangdc/soybean-admin/commit/c469512)
+  - fix HorizontalMixMenu inverted. fixed #563 &nbsp;-&nbsp; by @honghuangdc in https://github.com/honghuangdc/soybean-admin/issues/563 [<samp>(4e55b)</samp>](https://github.com/honghuangdc/soybean-admin/commit/4e55b0e)
+  - fix vertical-menu will not render when the layout is from mobile &nbsp;-&nbsp; by @honghuangdc [<samp>(84027)</samp>](https://github.com/honghuangdc/soybean-admin/commit/8402734)
+
+### &nbsp;&nbsp;&nbsp;📖 Documentation
+
+- **projects**: update CHANGELOG &nbsp;-&nbsp; by @honghuangdc [<samp>(613c8)</samp>](https://github.com/honghuangdc/soybean-admin/commit/613c836)
+
+### &nbsp;&nbsp;&nbsp;🎨 Styles
+
+- **other**: modify the Chinese name of the grayscale mode &nbsp;-&nbsp; by **Azir** [<samp>(53770)</samp>](https://github.com/honghuangdc/soybean-admin/commit/5377002)
+
+### &nbsp;&nbsp;&nbsp;❤️ Contributors
+
+[![honghuangdc](https://github.com/honghuangdc.png?size=48)](https://github.com/honghuangdc)&nbsp;&nbsp;[![Azir-11](https://github.com/Azir-11.png?size=48)](https://github.com/Azir-11)&nbsp;&nbsp;
+[Azir](mailto:2075125282@qq.com),&nbsp;
+
+## [v1.3.0](https://github.com/soybeanjs/soybean-admin/compare/v1.2.8...v1.3.0) (2024-07-22)
+
+### &nbsp;&nbsp;&nbsp;🚨 Breaking Changes
+
+- **projects**: refactor global menu & support `reversed-horizontal-mix-menu`. close #365 &nbsp;-&nbsp; by @honghuangdc in https://github.com/soybeanjs/soybean-admin/issues/365 [<samp>(087e5)</samp>](https://github.com/soybeanjs/soybean-admin/commit/087e532)
+
+### &nbsp;&nbsp;&nbsp;🚀 Features
+
+- **packages**:
+  - `@sa/scripts`: command `gitCommit` support chinese &nbsp;-&nbsp; by @mmdapl in https://github.com/soybeanjs/soybean-admin/issues/548 [<samp>(06971)</samp>](https://github.com/soybeanjs/soybean-admin/commit/06971f3)
+  - @sa/axios: replace CancelTokenSource by AbortController. close #530, close #532 &nbsp;-&nbsp; by @honghuangdc in https://github.com/soybeanjs/soybean-admin/issues/530 and https://github.com/soybeanjs/soybean-admin/issues/532 [<samp>(527fd)</samp>](https://github.com/soybeanjs/soybean-admin/commit/527fd79)
+  - @sa/scripts: add ignore pattern list for command `gitCommitVerify`. close #504 &nbsp;-&nbsp; by @honghuangdc in https://github.com/soybeanjs/soybean-admin/issues/504 [<samp>(958d0)</samp>](https://github.com/soybeanjs/soybean-admin/commit/958d0ba)
+- **projects**:
+  - make branch `main` tiny & modify request retry times to 0 &nbsp;-&nbsp; by @Azir-11 [<samp>(793b1)</samp>](https://github.com/soybeanjs/soybean-admin/commit/793b16e)
+
+### &nbsp;&nbsp;&nbsp;🐞 Bug Fixes
+
+- **hooks**: prevent program freezing when pagesize returns 0 &nbsp;-&nbsp; by @Azir-11 in https://github.com/soybeanjs/soybean-admin/issues/545 [<samp>(f4eeb)</samp>](https://github.com/soybeanjs/soybean-admin/commit/f4eeb2e)
+
+### &nbsp;&nbsp;&nbsp;💅 Refactors
+
+- **projects**:
+  - combine `theme tokens` and `theme settings`. close #379 &nbsp;-&nbsp; by @honghuangdc in https://github.com/soybeanjs/soybean-admin/issues/379 [<samp>(1d1b1)</samp>](https://github.com/soybeanjs/soybean-admin/commit/1d1b148)
+  - change css vars mount to root &nbsp;-&nbsp; by @honghuangdc [<samp>(00f41)</samp>](https://github.com/soybeanjs/soybean-admin/commit/00f41dd)
+
+### &nbsp;&nbsp;&nbsp;📖 Documentation
+
+- **projects**: update CHANGELOG &nbsp;-&nbsp; by @honghuangdc [<samp>(a0b76)</samp>](https://github.com/soybeanjs/soybean-admin/commit/a0b76da)
+
+### &nbsp;&nbsp;&nbsp;🏡 Chore
+
+- **deps**: update deps &nbsp;-&nbsp; by @honghuangdc [<samp>(f6bd6)</samp>](https://github.com/soybeanjs/soybean-admin/commit/f6bd6b8)
+- **projects**: add script `czh` &nbsp;-&nbsp; by @honghuangdc [<samp>(02069)</samp>](https://github.com/soybeanjs/soybean-admin/commit/0206969)
+
+### &nbsp;&nbsp;&nbsp;❤️ Contributors
+
+[![honghuangdc](https://github.com/honghuangdc.png?size=48)](https://github.com/honghuangdc)&nbsp;&nbsp;[![mmdapl](https://github.com/mmdapl.png?size=48)](https://github.com/mmdapl)&nbsp;&nbsp;[![Azir-11](https://github.com/Azir-11.png?size=48)](https://github.com/Azir-11)&nbsp;&nbsp;
+
+## [v1.2.8](https://github.com/soybeanjs/soybean-admin/compare/v1.2.7...v1.2.8) (2024-07-20)
+
+### &nbsp;&nbsp;&nbsp;🐞 Bug Fixes
+
+- **packages**:
+  - @sa/hooks: fix searchParams of useHookTable. fixed #552 &nbsp;-&nbsp; by @honghuangdc in https://github.com/soybeanjs/soybean-admin/issues/552 [<samp>(96c10)</samp>](https://github.com/soybeanjs/soybean-admin/commit/96c1044)
+- **types**:
+  - Fixed the reference type error &nbsp;-&nbsp; by **dodu2014** in https://github.com/soybeanjs/soybean-admin/issues/551 [<samp>(3e2a9)</samp>](https://github.com/soybeanjs/soybean-admin/commit/3e2a993)
+  - fix data type of useHookTable &nbsp;-&nbsp; by @honghuangdc [<samp>(276ea)</samp>](https://github.com/soybeanjs/soybean-admin/commit/276ea7f)
+
+### &nbsp;&nbsp;&nbsp;💅 Refactors
+
+- **projects**: replace `cloneDeep` of `lodash-es` with `klona` &nbsp;-&nbsp; by @honghuangdc [<samp>(a9133)</samp>](https://github.com/soybeanjs/soybean-admin/commit/a91335d)
+
+### &nbsp;&nbsp;&nbsp;📖 Documentation
+
+- **projects**: update CHANGELOG &nbsp;-&nbsp; by @honghuangdc [<samp>(58fc0)</samp>](https://github.com/soybeanjs/soybean-admin/commit/58fc096)
+
+### &nbsp;&nbsp;&nbsp;🏡 Chore
+
+- **deps**: update deps &nbsp;-&nbsp; by @honghuangdc [<samp>(cf019)</samp>](https://github.com/soybeanjs/soybean-admin/commit/cf0192a)
+
+### &nbsp;&nbsp;&nbsp;❤️ Contributors
+
+[![honghuangdc](https://github.com/honghuangdc.png?size=48)](https://github.com/honghuangdc)&nbsp;&nbsp;
+[dodu2014](mailto:dodu@live.cn)
+
+## [v1.2.7](https://github.com/honghuangdc/soybean-admin/compare/v1.2.6...v1.2.7) (2024-07-12)
+
+### &nbsp;&nbsp;&nbsp;🛠 Optimizations
+
+- **projects**: supports custom menu icon sizes &nbsp;-&nbsp; by @wynn-w in https://github.com/honghuangdc/soybean-admin/issues/534 [<samp>(e035e)</samp>](https://github.com/honghuangdc/soybean-admin/commit/e035eab)
+
+### &nbsp;&nbsp;&nbsp;🏡 Chore
+
+- **deps**:
+  - update deps &nbsp;-&nbsp; by @honghuangdc [<samp>(72ede)</samp>](https://github.com/honghuangdc/soybean-admin/commit/72ede8b)
+  - update deps &nbsp;-&nbsp; by @honghuangdc [<samp>(be13c)</samp>](https://github.com/honghuangdc/soybean-admin/commit/be13ca2)
+  - update deps &nbsp;-&nbsp; by @honghuangdc [<samp>(752ec)</samp>](https://github.com/honghuangdc/soybean-admin/commit/752ec1e)
+- **projects**:
+  - Fix deprecated configuration config &nbsp;-&nbsp; by @paynezhuang in https://github.com/honghuangdc/soybean-admin/issues/524 [<samp>(0d20e)</samp>](https://github.com/honghuangdc/soybean-admin/commit/0d20e4c)
+
+### &nbsp;&nbsp;&nbsp;❤️ Contributors
+
+[![honghuangdc](https://github.com/honghuangdc.png?size=48)](https://github.com/honghuangdc)&nbsp;&nbsp;[![wynn-w](https://github.com/wynn-w.png?size=48)](https://github.com/wynn-w)&nbsp;&nbsp;[![paynezhuang](https://github.com/paynezhuang.png?size=48)](https://github.com/paynezhuang)&nbsp;&nbsp;
+
+## [v1.2.6](https://github.com/honghuangdc/soybean-admin/compare/v1.2.5...v1.2.6) (2024-06-21)
+
+### &nbsp;&nbsp;&nbsp;🐞 Bug Fixes
+
+- **projects**:
+  - request modal title use i18n. fixed #507 &nbsp;-&nbsp; by @honghuangdc in https://github.com/honghuangdc/soybean-admin/issues/507 [<samp>(f7de3)</samp>](https://github.com/honghuangdc/soybean-admin/commit/f7de3fd)
+  - add `getDataByPage` for `useTable`. fixed #499 &nbsp;-&nbsp; by @honghuangdc in https://github.com/honghuangdc/soybean-admin/issues/499 [<samp>(425c6)</samp>](https://github.com/honghuangdc/soybean-admin/commit/425c69a)
+  - fix login redirect to routeHome when routeHome of dynamic route is not same as static route. fixed #511 &nbsp;-&nbsp; by @honghuangdc in https://github.com/honghuangdc/soybean-admin/issues/511 [<samp>(49f60)</samp>](https://github.com/honghuangdc/soybean-admin/commit/49f60b2)
+
+### &nbsp;&nbsp;&nbsp;🛠 Optimizations
+
+- **projects**: optimize `getRouteQueryOfLoginRoute` &nbsp;-&nbsp; by @honghuangdc [<samp>(693f7)</samp>](https://github.com/honghuangdc/soybean-admin/commit/693f704)
+
+### &nbsp;&nbsp;&nbsp;📖 Documentation
+
+- **projects**:
+  - update CHANGELOG &nbsp;-&nbsp; by @honghuangdc [<samp>(5c67d)</samp>](https://github.com/honghuangdc/soybean-admin/commit/5c67d06)
+  - update README &nbsp;-&nbsp; by @honghuangdc [<samp>(1e67a)</samp>](https://github.com/honghuangdc/soybean-admin/commit/1e67ae8)
+
+### &nbsp;&nbsp;&nbsp;🏡 Chore
+
+- **deps**:
+  - update deps. close #510 &nbsp;-&nbsp; by @honghuangdc in https://github.com/honghuangdc/soybean-admin/issues/510 [<samp>(53143)</samp>](https://github.com/honghuangdc/soybean-admin/commit/531432d)
+  - update deps &nbsp;-&nbsp; by @honghuangdc [<samp>(c7f6f)</samp>](https://github.com/honghuangdc/soybean-admin/commit/c7f6f2a)
+
+### &nbsp;&nbsp;&nbsp;🤖 CI
+
+- **projects**:
+  - add github issues template &nbsp;-&nbsp; by @honghuangdc [<samp>(b5027)</samp>](https://github.com/honghuangdc/soybean-admin/commit/b5027c8)
+  - update github issues template &nbsp;-&nbsp; by @honghuangdc [<samp>(ff1d5)</samp>](https://github.com/honghuangdc/soybean-admin/commit/ff1d504)
+
+### &nbsp;&nbsp;&nbsp;❤️ Contributors
+
+[![honghuangdc](https://github.com/honghuangdc.png?size=48)](https://github.com/honghuangdc)&nbsp;&nbsp;
+
+## [v1.2.5](https://github.com/soybeanjs/soybean-admin/compare/v1.2.4...v1.2.5) (2024-06-15)
+
+### &nbsp;&nbsp;&nbsp;🐞 Bug Fixes
+
+- **projects**: Fix the issue of abnormal tab caching after logout. fixed #495 &nbsp;-&nbsp; by @Azir-11 in https://github.com/soybeanjs/soybean-admin/issues/495 [<samp>(3eeac)</samp>](https://github.com/soybeanjs/soybean-admin/commit/3eeace9)
+
+### &nbsp;&nbsp;&nbsp;🔥 Performance
+
+- **project**: Initializing the static routing function does not require asynchronization &nbsp;-&nbsp; by **CHENZL** in https://github.com/soybeanjs/soybean-admin/issues/493 [<samp>(2198b)</samp>](https://github.com/soybeanjs/soybean-admin/commit/2198b98)
+
+### &nbsp;&nbsp;&nbsp;🛠 Optimizations
+
+- **projects**: optimize code &nbsp;-&nbsp; by @soybeanjs [<samp>(b94ba)</samp>](https://github.com/soybeanjs/soybean-admin/commit/b94baa1)
+- **types**: Enhance compatibility of global types &nbsp;-&nbsp; by @Azir-11 in https://github.com/soybeanjs/soybean-admin/issues/494 [<samp>(cd9d5)</samp>](https://github.com/soybeanjs/soybean-admin/commit/cd9d58d)
+- **utils**: Reduce code indentation and improve readability &nbsp;-&nbsp; by @Azir-11 in https://github.com/soybeanjs/soybean-admin/issues/496 [<samp>(ad2f2)</samp>](https://github.com/soybeanjs/soybean-admin/commit/ad2f247)
+
+### &nbsp;&nbsp;&nbsp;📖 Documentation
+
+- **projects**: update CHANGELOG &nbsp;-&nbsp; by @soybeanjs [<samp>(b3368)</samp>](https://github.com/soybeanjs/soybean-admin/commit/b336841)
+
+### &nbsp;&nbsp;&nbsp;🏡 Chore
+
+- **deps**: update deps &nbsp;-&nbsp; by @soybeanjs [<samp>(b094d)</samp>](https://github.com/soybeanjs/soybean-admin/commit/b094d68)
+
+### &nbsp;&nbsp;&nbsp;❤️ Contributors
+
+[![soybeanjs](https://github.com/soybeanjs.png?size=48)](https://github.com/soybeanjs)&nbsp;&nbsp;[![Azir-11](https://github.com/Azir-11.png?size=48)](https://github.com/Azir-11)&nbsp;&nbsp;
+[CHENZL](mailto:zlong5568863@qq.com)
+
+## [v1.2.4](https://github.com/soybeanjs/soybean-admin/compare/v1.2.3...v1.2.4) (2024-06-14)
+
+### &nbsp;&nbsp;&nbsp;🛠 Optimizations
+
+- **projects**:
+  - optimize `setupAppVersionNotification` &nbsp;-&nbsp; by @soybeanjs [<samp>(b5a72)</samp>](https://github.com/soybeanjs/soybean-admin/commit/b5a723c)
+  - get buildTime with timezone 'Asia/Shanghai' &nbsp;-&nbsp; by @soybeanjs [<samp>(069fa)</samp>](https://github.com/soybeanjs/soybean-admin/commit/069fa8a)
+
+### &nbsp;&nbsp;&nbsp;❤️ Contributors
+
+[![soybeanjs](https://github.com/soybeanjs.png?size=48)](https://github.com/soybeanjs)&nbsp;&nbsp;
+
+## [v1.2.3](https://github.com/soybeanjs/soybean-admin/compare/v1.2.2...v1.2.3) (2024-06-13)
+
+### &nbsp;&nbsp;&nbsp;🐞 Bug Fixes
+
+- **projects**:
+  - fix mobile browser theme issue by adding color-scheme meta tag to index.html &nbsp;-&nbsp; by @KickCashew in https://github.com/soybeanjs/soybean-admin/issues/488 [<samp>(c2125)</samp>](https://github.com/soybeanjs/soybean-admin/commit/c212565)
+  - Fix secondary directory components is empty &nbsp;-&nbsp; by @paynezhuang in https://github.com/soybeanjs/soybean-admin/issues/491 [<samp>(aabb2)</samp>](https://github.com/soybeanjs/soybean-admin/commit/aabb2a4)
+
+### &nbsp;&nbsp;&nbsp;📖 Documentation
+
+- **projects**:
+  - Fixed the hyperlink pointing error &nbsp;-&nbsp; by **Azir** [<samp>(20a81)</samp>](https://github.com/soybeanjs/soybean-admin/commit/20a8127)
+  - update README &nbsp;-&nbsp; by @soybeanjs [<samp>(70261)</samp>](https://github.com/soybeanjs/soybean-admin/commit/7026126)
+
+### &nbsp;&nbsp;&nbsp;🏡 Chore
+
+- **deps**:
+  - update deps &nbsp;-&nbsp; by @soybeanjs [<samp>(813d8)</samp>](https://github.com/soybeanjs/soybean-admin/commit/813d8ce)
+  - update deps &nbsp;-&nbsp; by @soybeanjs [<samp>(bf718)</samp>](https://github.com/soybeanjs/soybean-admin/commit/bf71837)
+
+### &nbsp;&nbsp;&nbsp;❤️ Contributors
+
+[![soybeanjs](https://github.com/soybeanjs.png?size=48)](https://github.com/soybeanjs)&nbsp;&nbsp;[![paynezhuang](https://github.com/paynezhuang.png?size=48)](https://github.com/paynezhuang)&nbsp;&nbsp;[![KickCashew](https://github.com/KickCashew.png?size=48)](https://github.com/KickCashew)&nbsp;&nbsp;
+[Azir](mailto:2075125282@qq.com)
+
+## [v1.2.2](https://github.com/honghuangdc/soybean-admin/compare/v1.2.1...v1.2.2) (2024-06-12)
+
+### &nbsp;&nbsp;&nbsp;🚀 Features
+
+- **projects**: reset scroll position when tab change &nbsp;-&nbsp; by @soybeanjs [<samp>(9094b)</samp>](https://github.com/honghuangdc/soybean-admin/commit/9094b21)
+
+### &nbsp;&nbsp;&nbsp;🐞 Bug Fixes
+
+- **projects**:
+  - hide AppVersionNotification in DEV mode &nbsp;-&nbsp; by @sigma-plus in https://github.com/honghuangdc/soybean-admin/issues/482 [<samp>(62592)</samp>](https://github.com/honghuangdc/soybean-admin/commit/6259287)
+  - fix menu-toggler hidden in mobile layout. fixed #483 &nbsp;-&nbsp; by @soybeanjs in https://github.com/honghuangdc/soybean-admin/issues/483 [<samp>(4470c)</samp>](https://github.com/honghuangdc/soybean-admin/commit/4470cb4)
+
+### &nbsp;&nbsp;&nbsp;📖 Documentation
+
+- **projects**: update README &nbsp;-&nbsp; by @soybeanjs [<samp>(8f9a7)</samp>](https://github.com/honghuangdc/soybean-admin/commit/8f9a705)
+
+### &nbsp;&nbsp;&nbsp;❤️ Contributors
+
+[![soybeanjs](https://github.com/soybeanjs.png?size=48)](https://github.com/soybeanjs)&nbsp;&nbsp;[![sigma-plus](https://github.com/sigma-plus.png?size=48)](https://github.com/sigma-plus)&nbsp;&nbsp;
+
+## [v1.2.1](https://github.com/honghuangdc/soybean-admin/compare/v1.2.0...v1.2.1) (2024-06-07)
+
+### &nbsp;&nbsp;&nbsp;🐞 Bug Fixes
+
+- **projects**:
+  - fix get user info when page reload &nbsp;-&nbsp; by @soybeanjs [<samp>(ff51b)</samp>](https://github.com/honghuangdc/soybean-admin/commit/ff51b72)
+  - fix setupAppVersionNotification render &nbsp;-&nbsp; by @soybeanjs [<samp>(6a6eb)</samp>](https://github.com/honghuangdc/soybean-admin/commit/6a6eb9a)
+
+### &nbsp;&nbsp;&nbsp;📖 Documentation
+
+- **projects**: update CHANGELOG &nbsp;-&nbsp; by @soybeanjs [<samp>(fe06b)</samp>](https://github.com/honghuangdc/soybean-admin/commit/fe06b8c)
+
+### &nbsp;&nbsp;&nbsp;🏡 Chore
+
+- **deps**: update deps &nbsp;-&nbsp; by @soybeanjs [<samp>(08827)</samp>](https://github.com/honghuangdc/soybean-admin/commit/08827a4)
+
+### &nbsp;&nbsp;&nbsp;❤️ Contributors
+
+[![soybeanjs](https://github.com/soybeanjs.png?size=48)](https://github.com/soybeanjs)&nbsp;&nbsp;
+
+## [v1.2.0](https://github.com/soybeanjs/soybean-admin/compare/v1.1.5...v1.2.0) (2024-06-06)
+
+### &nbsp;&nbsp;&nbsp;🚀 Features
+
+- **projects**:
+  - support system new version update notification. close #420 &nbsp;-&nbsp; by @soybeanjs in https://github.com/soybeanjs/soybean-admin/issues/420 [<samp>(584cd)</samp>](https://github.com/soybeanjs/soybean-admin/commit/584cd54)
+  - get user info in router guard and remove in localStorage. close #459 &nbsp;-&nbsp; by @soybeanjs in https://github.com/soybeanjs/soybean-admin/issues/459 [<samp>(5531a)</samp>](https://github.com/soybeanjs/soybean-admin/commit/5531a68)
+
+### &nbsp;&nbsp;&nbsp;📖 Documentation
+
+- **projects**: update CHANGELOG &nbsp;-&nbsp; by @soybeanjs [<samp>(2bec8)</samp>](https://github.com/soybeanjs/soybean-admin/commit/2bec899)
+
+### &nbsp;&nbsp;&nbsp;❤️ Contributors
+
+[![soybeanjs](https://github.com/soybeanjs.png?size=48)](https://github.com/soybeanjs)&nbsp;&nbsp;
+
+## [v1.1.5](https://github.com/soybeanjs/soybean-admin/compare/v1.1.4...v1.1.5) (2024-06-06)
+
+### &nbsp;&nbsp;&nbsp;🐞 Bug Fixes
+
+- **projects**: fix register name, CodeLogin => Register &nbsp;-&nbsp; by @m-xlsea in https://github.com/soybeanjs/soybean-admin/issues/478 [<samp>(ddf38)</samp>](https://github.com/soybeanjs/soybean-admin/commit/ddf3823)
+
+### &nbsp;&nbsp;&nbsp;🏡 Chore
+
+- **deps**: update deps &nbsp;-&nbsp; by @soybeanjs [<samp>(060c0)</samp>](https://github.com/soybeanjs/soybean-admin/commit/060c0a9)
+- **projects**: update vscode settings: vue official &nbsp;-&nbsp; by @soybeanjs [<samp>(76649)</samp>](https://github.com/soybeanjs/soybean-admin/commit/76649e2)
+
+### &nbsp;&nbsp;&nbsp;❤️ Contributors
+
+[![soybeanjs](https://github.com/soybeanjs.png?size=48)](https://github.com/soybeanjs)&nbsp;&nbsp;[![m-xlsea](https://github.com/m-xlsea.png?size=48)](https://github.com/m-xlsea)&nbsp;&nbsp;
+
+## [v1.1.4](https://github.com/honghuangdc/soybean-admin/compare/v1.1.3...v1.1.4) (2024-06-06)
+
+### &nbsp;&nbsp;&nbsp;🐞 Bug Fixes
+
+- **utils**: modalLogout bug when esc is pressed &nbsp;-&nbsp; by @sigma-plus in https://github.com/honghuangdc/soybean-admin/issues/470 [<samp>(bd69c)</samp>](https://github.com/honghuangdc/soybean-admin/commit/bd69c00)
+
+### &nbsp;&nbsp;&nbsp;🛠 Optimizations
+
+- **projects**: optimize RouteMeta remarks &nbsp;-&nbsp; by @soybeanjs [<samp>(ffb48)</samp>](https://github.com/honghuangdc/soybean-admin/commit/ffb48b1)
+
+### &nbsp;&nbsp;&nbsp;📖 Documentation
+
+- **projects**:
+  - update CHANGELOG &nbsp;-&nbsp; by @soybeanjs [<samp>(756f8)</samp>](https://github.com/honghuangdc/soybean-admin/commit/756f84a)
+  - update Node&pnpm version &nbsp;-&nbsp; by @Azir-11 in https://github.com/honghuangdc/soybean-admin/issues/472 [<samp>(9b05d)</samp>](https://github.com/honghuangdc/soybean-admin/commit/9b05d73)
+
+### &nbsp;&nbsp;&nbsp;🏡 Chore
+
+- **deps**:
+  - update deps &nbsp;-&nbsp; by @soybeanjs [<samp>(d0380)</samp>](https://github.com/honghuangdc/soybean-admin/commit/d0380ce)
+  - update deps &nbsp;-&nbsp; by @soybeanjs [<samp>(1f464)</samp>](https://github.com/honghuangdc/soybean-admin/commit/1f4647b)
+- **projects**:
+  - close http proxy &nbsp;-&nbsp; by @soybeanjs [<samp>(d08a3)</samp>](https://github.com/honghuangdc/soybean-admin/commit/d08a381)
+  - update mock url &nbsp;-&nbsp; by @soybeanjs [<samp>(e6086)</samp>](https://github.com/honghuangdc/soybean-admin/commit/e6086f0)
+  - update vscode settings &nbsp;-&nbsp; by @soybeanjs [<samp>(910df)</samp>](https://github.com/honghuangdc/soybean-admin/commit/910dfca)
+
+### &nbsp;&nbsp;&nbsp;❤️ Contributors
+
+[![soybeanjs](https://github.com/soybeanjs.png?size=48)](https://github.com/soybeanjs)&nbsp;&nbsp;[![Azir-11](https://github.com/Azir-11.png?size=48)](https://github.com/Azir-11)&nbsp;&nbsp;[![sigma-plus](https://github.com/sigma-plus.png?size=48)](https://github.com/sigma-plus)&nbsp;&nbsp;
+
+## [v1.1.3](https://github.com/soybeanjs/soybean-admin/compare/v1.1.2...v1.1.3) (2024-06-02)
+
+### &nbsp;&nbsp;&nbsp;🐞 Bug Fixes
+
+- **components**:
+  - Fix the issue of search box popping up repeatedly due to carriage return &nbsp;-&nbsp; by @Azir-11 in https://github.com/soybeanjs/soybean-admin/issues/468 [<samp>(5bd96)</samp>](https://github.com/soybeanjs/soybean-admin/commit/5bd96b8)
+- **projects**:
+  - fix click menu search. fixed #466, close #467 &nbsp;-&nbsp; by @soybeanjs in https://github.com/soybeanjs/soybean-admin/issues/466 and https://github.com/soybeanjs/soybean-admin/issues/467 [<samp>(8efdb)</samp>](https://github.com/soybeanjs/soybean-admin/commit/8efdb10)
+  - fix reCacheRoute. fixed #464 &nbsp;-&nbsp; by @soybeanjs in https://github.com/soybeanjs/soybean-admin/issues/464 [<samp>(59faf)</samp>](https://github.com/soybeanjs/soybean-admin/commit/59faf15)
+- **styles**:
+  - fix FirstLevelMenu style. fixed #450 &nbsp;-&nbsp; by @soybeanjs in https://github.com/soybeanjs/soybean-admin/issues/450 [<samp>(db64b)</samp>](https://github.com/soybeanjs/soybean-admin/commit/db64b0e)
+  - fix PinToggler style. fixed #451 &nbsp;-&nbsp; by @soybeanjs in https://github.com/soybeanjs/soybean-admin/issues/451 [<samp>(42b12)</samp>](https://github.com/soybeanjs/soybean-admin/commit/42b121a)
+
+### &nbsp;&nbsp;&nbsp;🛠 Optimizations
+
+- **components**: accuracy draggable area for TableColumnSetting with animation &nbsp;-&nbsp; by @orangelckc in https://github.com/soybeanjs/soybean-admin/issues/465 [<samp>(2aa85)</samp>](https://github.com/soybeanjs/soybean-admin/commit/2aa85c6)
+- **projects**: unocss border shortcut &nbsp;-&nbsp; by @soybeanjs [<samp>(40d0f)</samp>](https://github.com/soybeanjs/soybean-admin/commit/40d0f8a)
+
+### &nbsp;&nbsp;&nbsp;📖 Documentation
+
+- **projects**: update CHANGELOG &nbsp;-&nbsp; by @soybeanjs [<samp>(87b18)</samp>](https://github.com/soybeanjs/soybean-admin/commit/87b1838)
+
+### &nbsp;&nbsp;&nbsp;🏡 Chore
+
+- **other**:
+  - correct spell mistake &nbsp;-&nbsp; by @orangelckc in https://github.com/soybeanjs/soybean-admin/issues/460 [<samp>(086ba)</samp>](https://github.com/soybeanjs/soybean-admin/commit/086bad4)
+  - correct spell mistake &nbsp;-&nbsp; by @Azir-11 in https://github.com/soybeanjs/soybean-admin/issues/462 [<samp>(f1850)</samp>](https://github.com/soybeanjs/soybean-admin/commit/f185041)
+- **projects**:
+  - update vscode launch.json &nbsp;-&nbsp; by @soybeanjs [<samp>(4c1c7)</samp>](https://github.com/soybeanjs/soybean-admin/commit/4c1c7e6)
+
+### &nbsp;&nbsp;&nbsp;❤️ Contributors
+
+[![soybeanjs](https://github.com/soybeanjs.png?size=48)](https://github.com/soybeanjs)&nbsp;&nbsp;[![Azir-11](https://github.com/Azir-11.png?size=48)](https://github.com/Azir-11)&nbsp;&nbsp;[![orangelckc](https://github.com/orangelckc.png?size=48)](https://github.com/orangelckc)&nbsp;&nbsp;
+
+## [v1.1.2](https://github.com/soybeanjs/soybean-admin/compare/v1.1.1...v1.1.2) (2024-05-24)
+
+### &nbsp;&nbsp;&nbsp;🐞 Bug Fixes
+
+- **projects**:
+  - fix header style & fix button highlight when click global-tab. fixed #446 &nbsp;-&nbsp; by @honghuangdc in https://github.com/soybeanjs/soybean-admin/issues/446 [<samp>(64fc0)</samp>](https://github.com/soybeanjs/soybean-admin/commit/64fc099)
+  - fix multi tab page only render once. fixed #441 &nbsp;-&nbsp; by @honghuangdc in https://github.com/soybeanjs/soybean-admin/issues/441 [<samp>(e379d)</samp>](https://github.com/soybeanjs/soybean-admin/commit/e379d6c)
+
+### &nbsp;&nbsp;&nbsp;🛠 Optimizations
+
+- **projects**: optimize code &nbsp;-&nbsp; by @honghuangdc [<samp>(bc8dc)</samp>](https://github.com/soybeanjs/soybean-admin/commit/bc8dc47)
+
+### &nbsp;&nbsp;&nbsp;❤️ Contributors
+
+[![honghuangdc](https://github.com/honghuangdc.png?size=48)](https://github.com/honghuangdc)&nbsp;&nbsp;
+
+## [v1.1.1](https://github.com/soybeanjs/soybean-admin/compare/v1.1.0...v1.1.1) (2024-05-20)
+
+### &nbsp;&nbsp;&nbsp;🚀 Features
+
+- **hooks**: add setOptions for useEcharts &nbsp;-&nbsp; by @honghuangdc [<samp>(e4d53)</samp>](https://github.com/soybeanjs/soybean-admin/commit/e4d53aa)
+
+### &nbsp;&nbsp;&nbsp;🐞 Bug Fixes
+
+- **projects**:
+  - fix useRouter. fixed #436 &nbsp;-&nbsp; by @honghuangdc in https://github.com/soybeanjs/soybean-admin/issues/436 [<samp>(0774a)</samp>](https://github.com/soybeanjs/soybean-admin/commit/0774a51)
+  - add error handle when get routes in dynamic route mode. fixed 440 &nbsp;-&nbsp; by @honghuangdc [<samp>(57b4a)</samp>](https://github.com/soybeanjs/soybean-admin/commit/57b4a9d)
+- **styles**:
+  - fix useTable type &nbsp;-&nbsp; by @honghuangdc [<samp>(07124)</samp>](https://github.com/soybeanjs/soybean-admin/commit/071241f)
+
+### &nbsp;&nbsp;&nbsp;📖 Documentation
+
+- **projects**:
+  - update CHANGELOG &nbsp;-&nbsp; by @honghuangdc [<samp>(19783)</samp>](https://github.com/soybeanjs/soybean-admin/commit/1978397)
+  - update README.md &nbsp;-&nbsp; by @honghuangdc [<samp>(fa56e)</samp>](https://github.com/soybeanjs/soybean-admin/commit/fa56e9c)
+  - update README.md &nbsp;-&nbsp; by @honghuangdc [<samp>(419ea)</samp>](https://github.com/soybeanjs/soybean-admin/commit/419ea42)
+
+### &nbsp;&nbsp;&nbsp;🏡 Chore
+
+- **projects**:
+  - update deps & fix TS error &nbsp;-&nbsp; by @honghuangdc [<samp>(4ea9c)</samp>](https://github.com/soybeanjs/soybean-admin/commit/4ea9c85)
+  - update eslint-config & fix code &nbsp;-&nbsp; by @honghuangdc [<samp>(68ea9)</samp>](https://github.com/soybeanjs/soybean-admin/commit/68ea974)
+  - update @elegant-router/vue & add error handle for resolve route. fixed #442 &nbsp;-&nbsp; by @honghuangdc in https://github.com/soybeanjs/soybean-admin/issues/442 [<samp>(24ff8)</samp>](https://github.com/soybeanjs/soybean-admin/commit/24ff852)
+
+### &nbsp;&nbsp;&nbsp;❤️ Contributors
+
+[![honghuangdc](https://github.com/honghuangdc.png?size=48)](https://github.com/honghuangdc)&nbsp;&nbsp;
+
+## [v1.1.0](https://github.com/honghuangdc/soybean-admin/compare/v1.0.9...v1.1.0) (2024-05-07)
+
+### &nbsp;&nbsp;&nbsp;🚀 Features
+
+- **projects**:
+  - support grayscale. fixed #385 &nbsp;-&nbsp; by @honghuangdc in https://github.com/honghuangdc/soybean-admin/issues/385 [<samp>(d335d)</samp>](https://github.com/honghuangdc/soybean-admin/commit/d335df6)
+  - Add prefix to local storage &nbsp;-&nbsp; by **Azir** [<samp>(1fc34)</samp>](https://github.com/honghuangdc/soybean-admin/commit/1fc34cc)
+  - add table showTotal options &nbsp;-&nbsp; by **paynezhuang** [<samp>(3e61e)</samp>](https://github.com/honghuangdc/soybean-admin/commit/3e61eab)
+  - add recommend color switch. closed #388 &nbsp;-&nbsp; by @honghuangdc in https://github.com/honghuangdc/soybean-admin/issues/388 [<samp>(a1920)</samp>](https://github.com/honghuangdc/soybean-admin/commit/a1920fc)
+  - add menu route field &nbsp;-&nbsp; by **paynezhuang** [<samp>(dbe31)</samp>](https://github.com/honghuangdc/soybean-admin/commit/dbe31eb)
+  - support repeated request errors occur once in a short time. close #368, close #369 &nbsp;-&nbsp; by @honghuangdc in https://github.com/honghuangdc/soybean-admin/issues/368 and https://github.com/honghuangdc/soybean-admin/issues/369 [<samp>(e3bd3)</samp>](https://github.com/honghuangdc/soybean-admin/commit/e3bd397)
+  - close tab by mouse wheel button click &nbsp;-&nbsp; by **JianJroh** [<samp>(d3849)</samp>](https://github.com/honghuangdc/soybean-admin/commit/d3849ba)
+  - page: support manage_menu more options. close #366 &nbsp;-&nbsp; by @honghuangdc in https://github.com/honghuangdc/soybean-admin/issues/366 [<samp>(c4b5c)</samp>](https://github.com/honghuangdc/soybean-admin/commit/c4b5c65)
+  - useTable adds expand to display &nbsp;-&nbsp; by **paynezhuang** [<samp>(0a90d)</samp>](https://github.com/honghuangdc/soybean-admin/commit/0a90dd3)
+
+### &nbsp;&nbsp;&nbsp;🐞 Bug Fixes
+
+- **projects**:
+  - menu fixedIndexInTab default null &nbsp;-&nbsp; by **paynezhuang** [<samp>(3d10e)</samp>](https://github.com/honghuangdc/soybean-admin/commit/3d10ef1)
+  - fix menu-toggler zIndex &nbsp;-&nbsp; by @honghuangdc [<samp>(7bd43)</samp>](https://github.com/honghuangdc/soybean-admin/commit/7bd43df)
+  - fix manage_menu modal style &nbsp;-&nbsp; by @honghuangdc [<samp>(60f3b)</samp>](https://github.com/honghuangdc/soybean-admin/commit/60f3b14)
+  - fix menu data when role is changed. fixed #391 &nbsp;-&nbsp; by @honghuangdc in https://github.com/honghuangdc/soybean-admin/issues/391 [<samp>(3b47b)</samp>](https://github.com/honghuangdc/soybean-admin/commit/3b47b5a)
+
+### &nbsp;&nbsp;&nbsp;🛠 Optimizations
+
+- **projects**: remove deprecated code &nbsp;-&nbsp; by @honghuangdc [<samp>(72ccb)</samp>](https://github.com/honghuangdc/soybean-admin/commit/72ccb6b)
+
+### &nbsp;&nbsp;&nbsp;💅 Refactors
+
+- **projects**:
+  - refactor @sa/color-palette => @sa/color & perf @sa/utils &nbsp;-&nbsp; by @honghuangdc [<samp>(34999)</samp>](https://github.com/honghuangdc/soybean-admin/commit/3499997)
+  - menu-operate-drawer => menu-operate-modal &nbsp;-&nbsp; by @honghuangdc [<samp>(003e1)</samp>](https://github.com/honghuangdc/soybean-admin/commit/003e145)
+
+### &nbsp;&nbsp;&nbsp;📖 Documentation
+
+- **projects**:
+  - add CHANGELOG.zh_CN.md &nbsp;-&nbsp; by @honghuangdc [<samp>(18b3f)</samp>](https://github.com/honghuangdc/soybean-admin/commit/18b3f05)
+  - update CHANGELOG &nbsp;-&nbsp; by @honghuangdc [<samp>(4d17c)</samp>](https://github.com/honghuangdc/soybean-admin/commit/4d17cfd)
+
+### &nbsp;&nbsp;&nbsp;🏡 Chore
+
+- **deps**:
+  - update deps &nbsp;-&nbsp; by @honghuangdc [<samp>(1cb38)</samp>](https://github.com/honghuangdc/soybean-admin/commit/1cb3816)
+  - update deps &nbsp;-&nbsp; by @honghuangdc [<samp>(599b4)</samp>](https://github.com/honghuangdc/soybean-admin/commit/599b4e1)
+- **projects**:
+  - merge main to v1.1.0 &nbsp;-&nbsp; by @honghuangdc [<samp>(ebe55)</samp>](https://github.com/honghuangdc/soybean-admin/commit/ebe55af)
+
+### &nbsp;&nbsp;&nbsp;❤️ Contributors
+
+[![honghuangdc](https://github.com/honghuangdc.png?size=48)](https://github.com/honghuangdc)&nbsp;&nbsp;
+[paynezhuang](mailto:paynezhuang@gmail.com),&nbsp;[JianJroh](mailto:rhjian@foxmail.com),&nbsp;[Azir](mailto:2075125282@qq.com)
+
+## [v1.1.0-beta.2](https://github.com/honghuangdc/soybean-admin/compare/v1.1.0-beta.1...v1.1.0-beta.2) (2024-05-07)
+
+### &nbsp;&nbsp;&nbsp;🚀 Features
+
+- **projects**: useTable adds expand to display &nbsp;-&nbsp; by **paynezhuang** [<samp>(0a90d)</samp>](https://github.com/honghuangdc/soybean-admin/commit/0a90dd3)
+
+### &nbsp;&nbsp;&nbsp;🐞 Bug Fixes
+
+- **projects**:
+  - fix manage_menu modal style &nbsp;-&nbsp; by @honghuangdc [<samp>(60f3b)</samp>](https://github.com/honghuangdc/soybean-admin/commit/60f3b14)
+  - fix menu data when role is changed. fixed #391 &nbsp;-&nbsp; by @honghuangdc in https://github.com/honghuangdc/soybean-admin/issues/391 [<samp>(3b47b)</samp>](https://github.com/honghuangdc/soybean-admin/commit/3b47b5a)
+
+### &nbsp;&nbsp;&nbsp;🛠 Optimizations
+
+- **projects**: remove deprecated code &nbsp;-&nbsp; by @honghuangdc [<samp>(72ccb)</samp>](https://github.com/honghuangdc/soybean-admin/commit/72ccb6b)
+
+### &nbsp;&nbsp;&nbsp;📖 Documentation
+
+- **projects**: add CHANGELOG.zh_CN.md &nbsp;-&nbsp; by @honghuangdc [<samp>(18b3f)</samp>](https://github.com/honghuangdc/soybean-admin/commit/18b3f05)
+
+### &nbsp;&nbsp;&nbsp;❤️ Contributors
+
+[![honghuangdc](https://github.com/honghuangdc.png?size=48)](https://github.com/honghuangdc)&nbsp;&nbsp;
+[paynezhuang](mailto:paynezhuang@gmail.com)
+
+## [v1.1.0-beta.1](https://github.com/soybeanjs/soybean-admin/compare/v1.0.9...v1.1.0-beta.1) (2024-05-07)
+
+### &nbsp;&nbsp;&nbsp;🚀 Features
+
+- **projects**:
+  - support grayscale. fixed #385 &nbsp;-&nbsp; by @honghuangdc in https://github.com/soybeanjs/soybean-admin/issues/385 [<samp>(d335d)</samp>](https://github.com/soybeanjs/soybean-admin/commit/d335df6)
+  - Add prefix to local storage &nbsp;-&nbsp; by **Azir** [<samp>(1fc34)</samp>](https://github.com/soybeanjs/soybean-admin/commit/1fc34cc)
+  - add table showTotal options &nbsp;-&nbsp; by **paynezhuang** [<samp>(3e61e)</samp>](https://github.com/soybeanjs/soybean-admin/commit/3e61eab)
+  - add recommend color switch. closed #388 &nbsp;-&nbsp; by @honghuangdc in https://github.com/soybeanjs/soybean-admin/issues/388 [<samp>(a1920)</samp>](https://github.com/soybeanjs/soybean-admin/commit/a1920fc)
+  - add menu route field &nbsp;-&nbsp; by **paynezhuang** [<samp>(dbe31)</samp>](https://github.com/soybeanjs/soybean-admin/commit/dbe31eb)
+  - support repeated request errors occur once in a short time. close #368, close #369 &nbsp;-&nbsp; by @honghuangdc in https://github.com/soybeanjs/soybean-admin/issues/368 and https://github.com/soybeanjs/soybean-admin/issues/369 [<samp>(e3bd3)</samp>](https://github.com/soybeanjs/soybean-admin/commit/e3bd397)
+  - close tab by mouse wheel button click &nbsp;-&nbsp; by **JianJroh** [<samp>(d3849)</samp>](https://github.com/soybeanjs/soybean-admin/commit/d3849ba)
+  - page: support manage_menu more options. close #366 &nbsp;-&nbsp; by @honghuangdc in https://github.com/soybeanjs/soybean-admin/issues/366 [<samp>(c4b5c)</samp>](https://github.com/soybeanjs/soybean-admin/commit/c4b5c65)
+
+### &nbsp;&nbsp;&nbsp;🐞 Bug Fixes
+
+- **projects**:
+  - menu fixedIndexInTab default null &nbsp;-&nbsp; by **paynezhuang** [<samp>(3d10e)</samp>](https://github.com/soybeanjs/soybean-admin/commit/3d10ef1)
+  - fix menu-toggler zIndex &nbsp;-&nbsp; by @honghuangdc [<samp>(7bd43)</samp>](https://github.com/soybeanjs/soybean-admin/commit/7bd43df)
+
+### &nbsp;&nbsp;&nbsp;💅 Refactors
+
+- **projects**:
+  - refactor @sa/color-palette => @sa/color & perf @sa/utils &nbsp;-&nbsp; by @honghuangdc [<samp>(34999)</samp>](https://github.com/soybeanjs/soybean-admin/commit/3499997)
+  - menu-operate-drawer => menu-operate-modal &nbsp;-&nbsp; by @honghuangdc [<samp>(003e1)</samp>](https://github.com/soybeanjs/soybean-admin/commit/003e145)
+
+### &nbsp;&nbsp;&nbsp;🏡 Chore
+
+- **deps**:
+  - update deps &nbsp;-&nbsp; by @honghuangdc [<samp>(1cb38)</samp>](https://github.com/soybeanjs/soybean-admin/commit/1cb3816)
+  - update deps &nbsp;-&nbsp; by @honghuangdc [<samp>(599b4)</samp>](https://github.com/soybeanjs/soybean-admin/commit/599b4e1)
+- **projects**:
+  - merge main to v1.1.0 &nbsp;-&nbsp; by @honghuangdc [<samp>(ebe55)</samp>](https://github.com/soybeanjs/soybean-admin/commit/ebe55af)
+
+### &nbsp;&nbsp;&nbsp;❤️ Contributors
+
+[![honghuangdc](https://github.com/honghuangdc.png?size=48)](https://github.com/honghuangdc)&nbsp;&nbsp;
+[JianJroh](mailto:rhjian@foxmail.com),&nbsp;[paynezhuang](mailto:paynezhuang@gmail.com),&nbsp;[Azir](mailto:2075125282@qq.com)
+
+## [v1.0.9](https://github.com/soybeanjs/soybean-admin/compare/v1.0.8...v1.0.9) (2024-05-05)
+
+### &nbsp;&nbsp;&nbsp;🚀 Features
+
+- **packages**: @sa/scripts: add new commit type `optimize` and commit scope `packages` &nbsp;-&nbsp; by @honghuangdc [<samp>(fbc2e)</samp>](https://github.com/soybeanjs/soybean-admin/commit/fbc2e61)
+
+### &nbsp;&nbsp;&nbsp;🐞 Bug Fixes
+
+- **projects**: fix manage page drawer operate about data reset. fixed #415, fixed #417 &nbsp;-&nbsp; by @honghuangdc in https://github.com/soybeanjs/soybean-admin/issues/415 and https://github.com/soybeanjs/soybean-admin/issues/417 [<samp>(f4513)</samp>](https://github.com/soybeanjs/soybean-admin/commit/f4513e1)
+
+### &nbsp;&nbsp;&nbsp;📖 Documentation
+
+- **projects**:
+  - add ecosystem to README.md &nbsp;-&nbsp; by @honghuangdc [<samp>(d0f17)</samp>](https://github.com/soybeanjs/soybean-admin/commit/d0f17a4)
+  - add PanisAdmin to README &nbsp;-&nbsp; by **paynezhuang** [<samp>(ce2a7)</samp>](https://github.com/soybeanjs/soybean-admin/commit/ce2a75b)
+
+### &nbsp;&nbsp;&nbsp;🏡 Chore
+
+- **deps**:
+  - update deps &nbsp;-&nbsp; by @honghuangdc [<samp>(413a8)</samp>](https://github.com/soybeanjs/soybean-admin/commit/413a8b2)
+  - update deps &nbsp;-&nbsp; by @honghuangdc [<samp>(734ef)</samp>](https://github.com/soybeanjs/soybean-admin/commit/734ef98)
+- **projects**:
+  - update .npmrc &nbsp;-&nbsp; by @honghuangdc [<samp>(52188)</samp>](https://github.com/soybeanjs/soybean-admin/commit/52188d8)
+  - update vscode settings &nbsp;-&nbsp; by @honghuangdc [<samp>(c137b)</samp>](https://github.com/soybeanjs/soybean-admin/commit/c137b97)
+
+### &nbsp;&nbsp;&nbsp;❤️ Contributors
+
+[![honghuangdc](https://github.com/honghuangdc.png?size=48)](https://github.com/honghuangdc)&nbsp;&nbsp;
+[paynezhuang](mailto:paynezhuang@gmail.com)
+
+## [v1.0.8](https://github.com/soybeanjs/soybean-admin/compare/v1.0.7...v1.0.8) (2024-04-27)
+
+### &nbsp;&nbsp;&nbsp;🐞 Bug Fixes
+
+- **components**:
+  - fix PinToggler label. fixed #407 &nbsp;-&nbsp; by @honghuangdc in https://github.com/soybeanjs/soybean-admin/issues/407 [<samp>(c0ed1)</samp>](https://github.com/soybeanjs/soybean-admin/commit/c0ed1f2)
+- **projects**:
+  - text level low. #409 &nbsp;-&nbsp; by **alleycharming** in https://github.com/soybeanjs/soybean-admin/issues/409 [<samp>(3ddb1)</samp>](https://github.com/soybeanjs/soybean-admin/commit/3ddb17a)
+  - fix tab fixedIndex as null case &nbsp;-&nbsp; by **paynezhuang** [<samp>(4708e)</samp>](https://github.com/soybeanjs/soybean-admin/commit/4708ede)
+  - recovery the layout config before is mobile. fixed #408, fixed #361 &nbsp;-&nbsp; by @honghuangdc in https://github.com/soybeanjs/soybean-admin/issues/408 and https://github.com/soybeanjs/soybean-admin/issues/361 [<samp>(dae2a)</samp>](https://github.com/soybeanjs/soybean-admin/commit/dae2aa5)
+
+### &nbsp;&nbsp;&nbsp;🔥 Performance
+
+- **projects**: perf judgement the fixed tab &nbsp;-&nbsp; by @honghuangdc [<samp>(b3e9b)</samp>](https://github.com/soybeanjs/soybean-admin/commit/b3e9bba)
+
+### &nbsp;&nbsp;&nbsp;💅 Refactors
+
+- **projects**: `Soybean Admin` to `SoybeanAdmin` &nbsp;-&nbsp; by @honghuangdc [<samp>(a8dbc)</samp>](https://github.com/soybeanjs/soybean-admin/commit/a8dbc03)
+
+### &nbsp;&nbsp;&nbsp;❤️ Contributors
+
+[![honghuangdc](https://github.com/honghuangdc.png?size=48)](https://github.com/honghuangdc)&nbsp;&nbsp;
+[paynezhuang](mailto:paynezhuang@gmail.com),&nbsp;[alleycharming](mailto:alleycharming@gmail.com)
+
+## [v1.0.7](https://github.com/soybeanjs/soybean-admin/compare/v1.0.6...v1.0.7) (2024-04-25)
+
+### &nbsp;&nbsp;&nbsp;🚀 Features
+
+- **projects**: support iframe page with diffrent url of custom route &nbsp;-&nbsp; by @honghuangdc [<samp>(da12d)</samp>](https://github.com/soybeanjs/soybean-admin/commit/da12d4a)
+
+### &nbsp;&nbsp;&nbsp;🏡 Chore
+
+- **deps**: update deps &nbsp;-&nbsp; by @honghuangdc [<samp>(fbd80)</samp>](https://github.com/soybeanjs/soybean-admin/commit/fbd80c2)
+
+### &nbsp;&nbsp;&nbsp;❤️ Contributors
+
+[![honghuangdc](https://github.com/honghuangdc.png?size=48)](https://github.com/honghuangdc)&nbsp;&nbsp;
+
+## [v1.0.6](https://github.com/soybeanjs/soybean-admin/compare/v1.0.5...v1.0.6) (2024-04-25)
+
+### &nbsp;&nbsp;&nbsp;🚀 Features
+
+- **hooks**: add state hooks: useRef, useState, useSignal &nbsp;-&nbsp; by @honghuangdc [<samp>(09f64)</samp>](https://github.com/soybeanjs/soybean-admin/commit/09f6464)
+
+### &nbsp;&nbsp;&nbsp;🐞 Bug Fixes
+
+- **projects**:
+  - added responseType judgment. #396 &nbsp;-&nbsp; by **alleycharming** in https://github.com/soybeanjs/soybean-admin/issues/396 [<samp>(82eab)</samp>](https://github.com/soybeanjs/soybean-admin/commit/82eabab)
+  - supply $t import statement &nbsp;-&nbsp; by @honghuangdc [<samp>(b2660)</samp>](https://github.com/soybeanjs/soybean-admin/commit/b266035)
+  - fix mix-menu blank. fixed #389 & cache mixMenuFixed &nbsp;-&nbsp; by @honghuangdc in https://github.com/soybeanjs/soybean-admin/issues/389 [<samp>(93c7f)</samp>](https://github.com/soybeanjs/soybean-admin/commit/93c7ff7)
+
+### &nbsp;&nbsp;&nbsp;🔥 Performance
+
+- **hooks**:
+  - perf useSignal &nbsp;-&nbsp; by @honghuangdc [<samp>(5d45c)</samp>](https://github.com/soybeanjs/soybean-admin/commit/5d45cef)
+- **projects**:
+  - remove useless prop `title` of `NDrawer` &nbsp;-&nbsp; by @honghuangdc [<samp>(fdde6)</samp>](https://github.com/soybeanjs/soybean-admin/commit/fdde679)
+  - add tsconfig.json for @sa/color-palette &nbsp;-&nbsp; by @honghuangdc [<samp>(d460e)</samp>](https://github.com/soybeanjs/soybean-admin/commit/d460e5c)
+
+### &nbsp;&nbsp;&nbsp;💅 Refactors
+
+- **hooks**: refactor useSignal, useComputed &nbsp;-&nbsp; by @honghuangdc [<samp>(3b5e4)</samp>](https://github.com/soybeanjs/soybean-admin/commit/3b5e4b3)
+- **projects**: useMixMenuContext replace useMixMenu &nbsp;-&nbsp; by @honghuangdc [<samp>(1e142)</samp>](https://github.com/soybeanjs/soybean-admin/commit/1e14293)
+
+### &nbsp;&nbsp;&nbsp;🏡 Chore
+
+- **deps**:
+  - update deps &nbsp;-&nbsp; by @honghuangdc [<samp>(e57bf)</samp>](https://github.com/soybeanjs/soybean-admin/commit/e57bf0b)
+- **projects**:
+  - use `engines` replace `packageManager` &nbsp;-&nbsp; by @honghuangdc [<samp>(dcd51)</samp>](https://github.com/soybeanjs/soybean-admin/commit/dcd51f4)
+  - update pnpm version requirement &nbsp;-&nbsp; by @honghuangdc [<samp>(19e65)</samp>](https://github.com/soybeanjs/soybean-admin/commit/19e65c1)
+
+### &nbsp;&nbsp;&nbsp;❤️ Contributors
+
+[![honghuangdc](https://github.com/honghuangdc.png?size=48)](https://github.com/honghuangdc)&nbsp;&nbsp;
+[alleycharming](mailto:alleycharming@gmail.com)
+
+## [v1.0.5](https://github.com/honghuangdc/soybean-admin/compare/v1.0.4...v1.0.5) (2024-04-24)
+
+### &nbsp;&nbsp;&nbsp;📖 Documentation
+
+- **projects**: update CHANGELOG.md &nbsp;-&nbsp; by @honghuangdc [<samp>(cf5bc)</samp>](https://github.com/honghuangdc/soybean-admin/commit/cf5bc88)
+
+### &nbsp;&nbsp;&nbsp;🏡 Chore
+
+- **projects**:
+  - lower vue version to 3.4.23 &nbsp;-&nbsp; by @honghuangdc [<samp>(b5243)</samp>](https://github.com/honghuangdc/soybean-admin/commit/b52432a)
+  - update pnpm-lock.yaml &nbsp;-&nbsp; by @honghuangdc [<samp>(516f4)</samp>](https://github.com/honghuangdc/soybean-admin/commit/516f46a)
+
+### &nbsp;&nbsp;&nbsp;❤️ Contributors
+
+[![honghuangdc](https://github.com/honghuangdc.png?size=48)](https://github.com/honghuangdc)&nbsp;&nbsp;
+
+## [v1.0.4](https://github.com/soybeanjs/soybean-admin/compare/v1.0.3...v1.0.4) (2024-04-24)
+
+### &nbsp;&nbsp;&nbsp;🐞 Bug Fixes
+
+- **projects**:
+  - fix CHANGELOG versions &nbsp;-&nbsp; by @honghuangdc [<samp>(d9af5)</samp>](https://github.com/soybeanjs/soybean-admin/commit/d9af5aa)
+  - fix disabled page animate &nbsp;-&nbsp; by @honghuangdc [<samp>(23f28)</samp>](https://github.com/soybeanjs/soybean-admin/commit/23f283a)
+  - fix routes data when role is change. fixed #391 &nbsp;-&nbsp; by @honghuangdc in https://github.com/soybeanjs/soybean-admin/issues/391 [<samp>(cb83d)</samp>](https://github.com/soybeanjs/soybean-admin/commit/cb83d6d)
+  - fix tabs data when role is change. fixed #392 &nbsp;-&nbsp; by @honghuangdc in https://github.com/soybeanjs/soybean-admin/issues/392 [<samp>(04aa0)</samp>](https://github.com/soybeanjs/soybean-admin/commit/04aa097)
+  - recovery pnpm-lock.yaml &nbsp;-&nbsp; by @honghuangdc [<samp>(c6952)</samp>](https://github.com/soybeanjs/soybean-admin/commit/c695208)
+
+### &nbsp;&nbsp;&nbsp;💅 Refactors
+
+- **hooks**: refactor @sa/color &nbsp;-&nbsp; by @honghuangdc [<samp>(93191)</samp>](https://github.com/soybeanjs/soybean-admin/commit/9319173)
+
+### &nbsp;&nbsp;&nbsp;📖 Documentation
+
+- **projects**:
+  - update README.md &nbsp;-&nbsp; by @honghuangdc [<samp>(5a523)</samp>](https://github.com/soybeanjs/soybean-admin/commit/5a5232b)
+  - update README.md &nbsp;-&nbsp; by @honghuangdc [<samp>(79d9c)</samp>](https://github.com/soybeanjs/soybean-admin/commit/79d9c51)
+
+### &nbsp;&nbsp;&nbsp;🏡 Chore
+
+- **deps**:
+  - update deps &nbsp;-&nbsp; by @honghuangdc [<samp>(ac928)</samp>](https://github.com/soybeanjs/soybean-admin/commit/ac92817)
+  - update deps &nbsp;-&nbsp; by @honghuangdc [<samp>(3ceeb)</samp>](https://github.com/soybeanjs/soybean-admin/commit/3ceeb6f)
+  - update deps &nbsp;-&nbsp; by @honghuangdc [<samp>(9a669)</samp>](https://github.com/soybeanjs/soybean-admin/commit/9a66979)
+- **projects**:
+  - update pnpm version &nbsp;-&nbsp; by @honghuangdc [<samp>(42e16)</samp>](https://github.com/soybeanjs/soybean-admin/commit/42e16a0)
+  - update deps & update pnpm version & update eslint config &nbsp;-&nbsp; by @honghuangdc [<samp>(7392b)</samp>](https://github.com/soybeanjs/soybean-admin/commit/7392beb)
+
+### &nbsp;&nbsp;&nbsp;❤️ Contributors
+
+[![honghuangdc](https://github.com/honghuangdc.png?size=48)](https://github.com/honghuangdc)&nbsp;&nbsp;
+
+## [v1.0.3](https://github.com/soybeanjs/soybean-admin/compare/v1.0.2...v1.0.3) (2024-04-16)
+
+### &nbsp;&nbsp;&nbsp;🚀 Features
+
+- **hooks**: deleting the route export of useRoutePush, use vue-router &nbsp;-&nbsp; by **paynezhuang** [<samp>(c6648)</samp>](https://github.com/soybeanjs/soybean-admin/commit/c6648b6)
+
+### &nbsp;&nbsp;&nbsp;🐞 Bug Fixes
+
+- **projects**:
+  - fix menu edit rules &nbsp;-&nbsp; by **paynezhuang** [<samp>(00105)</samp>](https://github.com/soybeanjs/soybean-admin/commit/001059c)
+  - fix SvgIcon inheritAttrs warning &nbsp;-&nbsp; by @honghuangdc [<samp>(efc0e)</samp>](https://github.com/soybeanjs/soybean-admin/commit/efc0e25)
+  - fix axios createRequest: add default state &nbsp;-&nbsp; by @honghuangdc [<samp>(d6eda)</samp>](https://github.com/soybeanjs/soybean-admin/commit/d6eda8f)
+  - update union-key.d.ts &nbsp;-&nbsp; by @honghuangdc [<samp>(60bef)</samp>](https://github.com/soybeanjs/soybean-admin/commit/60beff7)
+  - fix update theme color &nbsp;-&nbsp; by @honghuangdc [<samp>(27c53)</samp>](https://github.com/soybeanjs/soybean-admin/commit/27c53cd)
+
+### &nbsp;&nbsp;&nbsp;🔥 Performance
+
+- **projects**: perf code &nbsp;-&nbsp; by @honghuangdc [<samp>(b7f07)</samp>](https://github.com/soybeanjs/soybean-admin/commit/b7f0749)
+
+### &nbsp;&nbsp;&nbsp;💅 Refactors
+
+- **projects**: update naive-ui.d.ts &nbsp;-&nbsp; by @honghuangdc [<samp>(bb74d)</samp>](https://github.com/soybeanjs/soybean-admin/commit/bb74d99)
+
+### &nbsp;&nbsp;&nbsp;📖 Documentation
+
+- **projects**: update README.md &nbsp;-&nbsp; by @honghuangdc [<samp>(f4a9c)</samp>](https://github.com/soybeanjs/soybean-admin/commit/f4a9cf8)
+
+### &nbsp;&nbsp;&nbsp;❤️ Contributors
+
+[![honghuangdc](https://github.com/honghuangdc.png?size=48)](https://github.com/honghuangdc)&nbsp;&nbsp;
+[paynezhuang](mailto:paynezhuang@gmail.com)
+
+## [v1.0.2](https://github.com/soybeanjs/soybean-admin/compare/v1.0.1...v1.0.2) (2024-04-08)
+
+### &nbsp;&nbsp;&nbsp;🐞 Bug Fixes
+
+- **projects**: unify border-radius of Tag. fixed #378 &nbsp;-&nbsp; by @honghuangdc in https://github.com/soybeanjs/soybean-admin/issues/378 [<samp>(2f15a)</samp>](https://github.com/soybeanjs/soybean-admin/commit/2f15a2a)
+- **styles**: fix css var is inserted repeatedly &nbsp;-&nbsp; by **燕博文** [<samp>(769d8)</samp>](https://github.com/soybeanjs/soybean-admin/commit/769d84a)
+
+### &nbsp;&nbsp;&nbsp;💅 Refactors
+
+- **projects**: refactor addThemeVarsToHtml &nbsp;-&nbsp; by @honghuangdc [<samp>(41e47)</samp>](https://github.com/soybeanjs/soybean-admin/commit/41e470e)
+
+### &nbsp;&nbsp;&nbsp;🏡 Chore
+
+- **deps**: update deps &nbsp;-&nbsp; by @honghuangdc [<samp>(a1b48)</samp>](https://github.com/soybeanjs/soybean-admin/commit/a1b484a)
+- **projects**: disabled unocss eslint rule: order-attributify &nbsp;-&nbsp; by @honghuangdc [<samp>(1c72d)</samp>](https://github.com/soybeanjs/soybean-admin/commit/1c72dc7)
+
+### &nbsp;&nbsp;&nbsp;❤️ Contributors
+
+[![honghuangdc](https://github.com/honghuangdc.png?size=48)](https://github.com/honghuangdc)&nbsp;&nbsp;
+[燕博文](mailto:349952469@qq.com)
+
+## [v1.0.1](https://github.com/soybeanjs/soybean-admin/compare/v1.0.0...v1.0.1) (2024-04-03)
+
+### &nbsp;&nbsp;&nbsp;🐞 Bug Fixes
+
+- **projects**:
+  - fix flatRequest error type. fixed #376 &nbsp;-&nbsp; by @honghuangdc in https://github.com/soybeanjs/soybean-admin/issues/376 [<samp>(1ec5e)</samp>](https://github.com/soybeanjs/soybean-admin/commit/1ec5ea0)
+  - add maxWidth for GlobalTab to fix bg with gap. fixed #350 &nbsp;-&nbsp; by @honghuangdc in https://github.com/soybeanjs/soybean-admin/issues/350 [<samp>(cc539)</samp>](https://github.com/soybeanjs/soybean-admin/commit/cc53997)
+
+### &nbsp;&nbsp;&nbsp;📖 Documentation
+
+- **projects**: update README.md &nbsp;-&nbsp; by @honghuangdc [<samp>(76011)</samp>](https://github.com/soybeanjs/soybean-admin/commit/76011af)
+
+### &nbsp;&nbsp;&nbsp;🏡 Chore
+
+- **projects**:
+  - update deps &nbsp;-&nbsp; by @honghuangdc [<samp>(4babb)</samp>](https://github.com/soybeanjs/soybean-admin/commit/4babbe1)
+  - update pnpm version &nbsp;-&nbsp; by @honghuangdc [<samp>(9125c)</samp>](https://github.com/soybeanjs/soybean-admin/commit/9125cc9)
+
+### &nbsp;&nbsp;&nbsp;❤️ Contributors
+
+[![honghuangdc](https://github.com/honghuangdc.png?size=48)](https://github.com/honghuangdc)&nbsp;&nbsp;
+
+## [v1.0.0](https://github.com/soybeanjs/soybean-admin/compare/v0.10.4...v1.0.0) (2024-03-31)
+
+### &nbsp;&nbsp;&nbsp;🚀 Features
+
+- internationalized menu search &nbsp;-&nbsp; by **Kori** [<samp>(9e115)</samp>](https://github.com/soybeanjs/soybean-admin/commit/9e115da)
+- **components**:
+  - enhance the custom strength of the 'TableHeaderOperation' component &nbsp;-&nbsp; by **tnt group** [<samp>(fdf64)</samp>](https://github.com/soybeanjs/soybean-admin/commit/fdf64f7)
+  - add GlobalSearch components &nbsp;-&nbsp; by **燕博文** [<samp>(9ea87)</samp>](https://github.com/soybeanjs/soybean-admin/commit/9ea8789)
+- **hooks**:
+  - add use-echarts &nbsp;-&nbsp; by @honghuangdc [<samp>(726ab)</samp>](https://github.com/soybeanjs/soybean-admin/commit/726abe4)
+- **projects**:
+  - 1.0 beta &nbsp;-&nbsp; by @honghuangdc [<samp>(e918a)</samp>](https://github.com/soybeanjs/soybean-admin/commit/e918a2c)
+  - support Vite5 &nbsp;-&nbsp; by @honghuangdc [<samp>(96e4a)</samp>](https://github.com/soybeanjs/soybean-admin/commit/96e4aff)
+  - @sa/axios: createRequest, createFlatRequest, createHookRequest &nbsp;-&nbsp; by @honghuangdc [<samp>(bac16)</samp>](https://github.com/soybeanjs/soybean-admin/commit/bac1632)
+  - add app loading &nbsp;-&nbsp; by @honghuangdc [<samp>(c6545)</samp>](https://github.com/soybeanjs/soybean-admin/commit/c65451b)
+  - add copyright, unocss shortcut: card-wrapper, update package.json &nbsp;-&nbsp; by @honghuangdc [<samp>(affcc)</samp>](https://github.com/soybeanjs/soybean-admin/commit/affcc26)
+  - add page: about &nbsp;-&nbsp; by @honghuangdc [<samp>(4955f)</samp>](https://github.com/soybeanjs/soybean-admin/commit/4955f1a)
+  - add custom route exception &nbsp;-&nbsp; by @honghuangdc [<samp>(b43c9)</samp>](https://github.com/soybeanjs/soybean-admin/commit/b43c925)
+  - filter tabs which are not in routes &nbsp;-&nbsp; by @honghuangdc [<samp>(f59f3)</samp>](https://github.com/soybeanjs/soybean-admin/commit/f59f348)
+  - packages/scripts: add command changelog,release &nbsp;-&nbsp; by @honghuangdc [<samp>(dafb6)</samp>](https://github.com/soybeanjs/soybean-admin/commit/dafb6fa)
+  - add script: gen-route &nbsp;-&nbsp; by @honghuangdc [<samp>(697c1)</samp>](https://github.com/soybeanjs/soybean-admin/commit/697c1b6)
+  - @sa/axios: add qs stringify for params &nbsp;-&nbsp; by @honghuangdc [<samp>(2400c)</samp>](https://github.com/soybeanjs/soybean-admin/commit/2400c02)
+  - page home & perf useEcharts &nbsp;-&nbsp; by @honghuangdc [<samp>(62e4d)</samp>](https://github.com/soybeanjs/soybean-admin/commit/62e4da0)
+  - finish page home &nbsp;-&nbsp; by @honghuangdc [<samp>(7bd1e)</samp>](https://github.com/soybeanjs/soybean-admin/commit/7bd1e47)
+  - add page function_tab &nbsp;-&nbsp; by @honghuangdc [<samp>(6ff86)</samp>](https://github.com/soybeanjs/soybean-admin/commit/6ff86e7)
+  - page manage_role &nbsp;-&nbsp; by @honghuangdc [<samp>(237c6)</samp>](https://github.com/soybeanjs/soybean-admin/commit/237c6d2)
+  - page manage_user &nbsp;-&nbsp; by @honghuangdc [<samp>(8a170)</samp>](https://github.com/soybeanjs/soybean-admin/commit/8a170ee)
+  - page manage_menu &nbsp;-&nbsp; by @honghuangdc [<samp>(87d65)</samp>](https://github.com/soybeanjs/soybean-admin/commit/87d65d3)
+  - page manage_menu operateDrawer &nbsp;-&nbsp; by @honghuangdc [<samp>(db17c)</samp>](https://github.com/soybeanjs/soybean-admin/commit/db17c91)
+  - Add type to TabRoute: matched &nbsp;-&nbsp; by @Azir-11 [<samp>(2d102)</samp>](https://github.com/soybeanjs/soybean-admin/commit/2d102a0)
+  - support directory menu hide all child menus. fixed #325 &nbsp;-&nbsp; by @honghuangdc in https://github.com/soybeanjs/soybean-admin/issues/325 [<samp>(7256a)</samp>](https://github.com/soybeanjs/soybean-admin/commit/7256ad4)
+  - mock manage list data with pagination &nbsp;-&nbsp; by @honghuangdc [<samp>(1a6be)</samp>](https://github.com/soybeanjs/soybean-admin/commit/1a6be00)
+  - globalSearch add i18n &nbsp;-&nbsp; by **燕博文** [<samp>(0126d)</samp>](https://github.com/soybeanjs/soybean-admin/commit/0126da4)
+  - Add route meta parameter:fixedQuery &nbsp;-&nbsp; by @Azir-11 [<samp>(874aa)</samp>](https://github.com/soybeanjs/soybean-admin/commit/874aaca)
+  - update &nbsp;-&nbsp; by @honghuangdc [<samp>(4158a)</samp>](https://github.com/soybeanjs/soybean-admin/commit/4158a72)
+  - change borderRadius to 6px of naiveUI &nbsp;-&nbsp; by @honghuangdc [<samp>(49558)</samp>](https://github.com/soybeanjs/soybean-admin/commit/49558ca)
+  - pef manage role &nbsp;-&nbsp; by @honghuangdc [<samp>(18709)</samp>](https://github.com/soybeanjs/soybean-admin/commit/1870981)
+  - login page: code-login &nbsp;-&nbsp; by @honghuangdc [<samp>(c91dd)</samp>](https://github.com/soybeanjs/soybean-admin/commit/c91dd28)
+  - login page: register &nbsp;-&nbsp; by @honghuangdc [<samp>(1ed33)</samp>](https://github.com/soybeanjs/soybean-admin/commit/1ed33dc)
+  - add request refresh token & logout &nbsp;-&nbsp; by @honghuangdc [<samp>(11a6a)</samp>](https://github.com/soybeanjs/soybean-admin/commit/11a6a3b)
+  - add request exception example page &nbsp;-&nbsp; by @honghuangdc [<samp>(41e8b)</samp>](https://github.com/soybeanjs/soybean-admin/commit/41e8bc4)
+  - add auth example &nbsp;-&nbsp; by @honghuangdc [<samp>(c11d5)</samp>](https://github.com/soybeanjs/soybean-admin/commit/c11d56d)
+- **router**:
+  - add sortRoutesByOrder function &nbsp;-&nbsp; by @Azir-11 [<samp>(0cf09)</samp>](https://github.com/soybeanjs/soybean-admin/commit/0cf09ba)
+
+### &nbsp;&nbsp;&nbsp;🐞 Bug Fixes
+
+- **components**:
+  - fix tooltip zIndex of ButtonIcon &nbsp;-&nbsp; by @honghuangdc [<samp>(99097)</samp>](https://github.com/soybeanjs/soybean-admin/commit/99097b4)
+  - supplement the `NaiveUI` type &nbsp;-&nbsp; by **tnt group** [<samp>(ccc2b)</samp>](https://github.com/soybeanjs/soybean-admin/commit/ccc2b67)
+  - fix homeTab closeRight and disable colseLeft &nbsp;-&nbsp; by **~li** [<samp>(d28bf)</samp>](https://github.com/soybeanjs/soybean-admin/commit/d28bf52)
+- **hooks**:
+  - Fix Naive Pagination's outdated API &nbsp;-&nbsp; by **tnt group** [<samp>(37436)</samp>](https://github.com/soybeanjs/soybean-admin/commit/3743612)
+- **projects**:
+  - 修复路由命名为包含关系时导致导航数据出错的问题 &nbsp;-&nbsp; by @Particaly [<samp>(76636)</samp>](https://github.com/soybeanjs/soybean-admin/commit/766369f)
+  - rename zh-ch &nbsp;-&nbsp; by @honghuangdc [<samp>(a8a77)</samp>](https://github.com/soybeanjs/soybean-admin/commit/a8a77ea)
+  - Fix welcome notification not closing &nbsp;-&nbsp; by @Azir-11 [<samp>(748cf)</samp>](https://github.com/soybeanjs/soybean-admin/commit/748cfa2)
+  - fix i18n vscode settings &nbsp;-&nbsp; by @honghuangdc [<samp>(fbf4c)</samp>](https://github.com/soybeanjs/soybean-admin/commit/fbf4cc4)
+  - add duration of login success notification &nbsp;-&nbsp; by @honghuangdc [<samp>(1335d)</samp>](https://github.com/soybeanjs/soybean-admin/commit/1335d47)
+  - fix menu indent &nbsp;-&nbsp; by @honghuangdc [<samp>(87143)</samp>](https://github.com/soybeanjs/soybean-admin/commit/8714317)
+  - fix theme mode segment &nbsp;-&nbsp; by @honghuangdc [<samp>(2372d)</samp>](https://github.com/soybeanjs/soybean-admin/commit/2372dc9)
+  - fix app loading theme color &nbsp;-&nbsp; by @honghuangdc [<samp>(0ba19)</samp>](https://github.com/soybeanjs/soybean-admin/commit/0ba19d5)
+  - fix page about style in mobile &nbsp;-&nbsp; by @honghuangdc [<samp>(8b6de)</samp>](https://github.com/soybeanjs/soybean-admin/commit/8b6de48)
+  - fix themeDrawer darkMode segement &nbsp;-&nbsp; by @honghuangdc [<samp>(1b5ca)</samp>](https://github.com/soybeanjs/soybean-admin/commit/1b5caa0)
+  - fix themeDrawer copy &nbsp;-&nbsp; by @honghuangdc [<samp>(b3779)</samp>](https://github.com/soybeanjs/soybean-admin/commit/b3779a6)
+  - remove space in tab content &nbsp;-&nbsp; by @honghuangdc [<samp>(4aae6)</samp>](https://github.com/soybeanjs/soybean-admin/commit/4aae6a5)
+  - fix horizontal menu &nbsp;-&nbsp; by @honghuangdc [<samp>(d886e)</samp>](https://github.com/soybeanjs/soybean-admin/commit/d886e50)
+  - perf card style &nbsp;-&nbsp; by @honghuangdc [<samp>(c1afb)</samp>](https://github.com/soybeanjs/soybean-admin/commit/c1afb9d)
+  - fix manage_user title &nbsp;-&nbsp; by @honghuangdc [<samp>(7770b)</samp>](https://github.com/soybeanjs/soybean-admin/commit/7770b37)
+  - default proxy prefix &nbsp;-&nbsp; by @smileluck [<samp>(da246)</samp>](https://github.com/soybeanjs/soybean-admin/commit/da24642)
+  - fix request msg &nbsp;-&nbsp; by @honghuangdc [<samp>(ae6b6)</samp>](https://github.com/soybeanjs/soybean-admin/commit/ae6b613)
+  - Fix the issue of tab error displaying parent localIcon &nbsp;-&nbsp; by @Azir-11 [<samp>(a9c98)</samp>](https://github.com/soybeanjs/soybean-admin/commit/a9c98d9)
+  - The matched value of TabRoute should be optional &nbsp;-&nbsp; by @Azir-11 [<samp>(e6fed)</samp>](https://github.com/soybeanjs/soybean-admin/commit/e6fed1f)
+  - fix build [unocss]: build failed to load icon "close", fixed #319 &nbsp;-&nbsp; by @honghuangdc in https://github.com/soybeanjs/soybean-admin/issues/319 [<samp>(c18d8)</samp>](https://github.com/soybeanjs/soybean-admin/commit/c18d82f)
+  - fix resolve alias &nbsp;-&nbsp; by @honghuangdc [<samp>(3bdcb)</samp>](https://github.com/soybeanjs/soybean-admin/commit/3bdcbc7)
+  - Missing default value for tab icon &nbsp;-&nbsp; by @Azir-11 [<samp>(72a46)</samp>](https://github.com/soybeanjs/soybean-admin/commit/72a4679)
+  - add route icon: fucntion_hide-child &nbsp;-&nbsp; by @honghuangdc [<samp>(0a3ef)</samp>](https://github.com/soybeanjs/soybean-admin/commit/0a3efe3)
+  - fix table x-scroll. fixed #324 &nbsp;-&nbsp; by @honghuangdc in https://github.com/soybeanjs/soybean-admin/issues/324 [<samp>(c7e2c)</samp>](https://github.com/soybeanjs/soybean-admin/commit/c7e2c55)
+  - Fix the logic of root route redirection to home &nbsp;-&nbsp; by **恕瑞玛的皇帝** [<samp>(0123c)</samp>](https://github.com/soybeanjs/soybean-admin/commit/0123c37)
+  - Fix homepage mount error under dynamic routing &nbsp;-&nbsp; by **恕瑞玛的皇帝** [<samp>(9cf2a)</samp>](https://github.com/soybeanjs/soybean-admin/commit/9cf2a51)
+  - fix repeat home tab &nbsp;-&nbsp; by @honghuangdc [<samp>(bccd6)</samp>](https://github.com/soybeanjs/soybean-admin/commit/bccd6cb)
+  - fix proxy config &nbsp;-&nbsp; by @honghuangdc [<samp>(c8019)</samp>](https://github.com/soybeanjs/soybean-admin/commit/c8019c4)
+  - fix proxy config &nbsp;-&nbsp; by @honghuangdc [<samp>(ffc95)</samp>](https://github.com/soybeanjs/soybean-admin/commit/ffc95d2)
+  - fix table row-key ts type &nbsp;-&nbsp; by @honghuangdc [<samp>(0cc8f)</samp>](https://github.com/soybeanjs/soybean-admin/commit/0cc8f05)
+  - fix class name conflict with unocss icon &nbsp;-&nbsp; by @honghuangdc [<samp>(455e4)</samp>](https://github.com/soybeanjs/soybean-admin/commit/455e48f)
+  - fix repeat routes &nbsp;-&nbsp; by @honghuangdc [<samp>(2c543)</samp>](https://github.com/soybeanjs/soybean-admin/commit/2c543f1)
+  - fix route init &nbsp;-&nbsp; by @honghuangdc [<samp>(23a40)</samp>](https://github.com/soybeanjs/soybean-admin/commit/23a4098)
+  - fix pin-toggler toolTip zIndex &nbsp;-&nbsp; by @honghuangdc [<samp>(f89e6)</samp>](https://github.com/soybeanjs/soybean-admin/commit/f89e6c0)
+
+### &nbsp;&nbsp;&nbsp;🔥 Performance
+
+- **components**:
+  - Optimize internationalized menu search code &nbsp;-&nbsp; by **燕博文** [<samp>(8c1ef)</samp>](https://github.com/soybeanjs/soybean-admin/commit/8c1ef4b)
+  - Optimize menu search code &nbsp;-&nbsp; by **燕博文** [<samp>(296a2)</samp>](https://github.com/soybeanjs/soybean-admin/commit/296a2d2)
+  - perf count-to &nbsp;-&nbsp; by @honghuangdc [<samp>(b2c61)</samp>](https://github.com/soybeanjs/soybean-admin/commit/b2c61f0)
+  - components  name is converted to uppercase &nbsp;-&nbsp; by **燕博文** [<samp>(04aa1)</samp>](https://github.com/soybeanjs/soybean-admin/commit/04aa10b)
+  - perf global-search &nbsp;-&nbsp; by @honghuangdc [<samp>(72745)</samp>](https://github.com/soybeanjs/soybean-admin/commit/7274522)
+- **projects**:
+  - perf code &nbsp;-&nbsp; by @honghuangdc [<samp>(8081e)</samp>](https://github.com/soybeanjs/soybean-admin/commit/8081e19)
+  - env config &nbsp;-&nbsp; by @honghuangdc [<samp>(1bac3)</samp>](https://github.com/soybeanjs/soybean-admin/commit/1bac3b7)
+  - add detailed annotations for route role &nbsp;-&nbsp; by @honghuangdc [<samp>(f6bab)</samp>](https://github.com/soybeanjs/soybean-admin/commit/f6bab0c)
+  - perf code &nbsp;-&nbsp; by @honghuangdc [<samp>(5c49d)</samp>](https://github.com/soybeanjs/soybean-admin/commit/5c49d24)
+  - remove useless file &nbsp;-&nbsp; by @honghuangdc [<samp>(c624f)</samp>](https://github.com/soybeanjs/soybean-admin/commit/c624f32)
+  - remove @soybeanjs/cli &nbsp;-&nbsp; by @honghuangdc [<samp>(41349)</samp>](https://github.com/soybeanjs/soybean-admin/commit/4134955)
+  - echarts loading style &nbsp;-&nbsp; by @honghuangdc [<samp>(456c3)</samp>](https://github.com/soybeanjs/soybean-admin/commit/456c318)
+  - perf page manage_role, useTable &nbsp;-&nbsp; by @honghuangdc [<samp>(39aa7)</samp>](https://github.com/soybeanjs/soybean-admin/commit/39aa7aa)
+  - perf table columns style &nbsp;-&nbsp; by @honghuangdc [<samp>(babdb)</samp>](https://github.com/soybeanjs/soybean-admin/commit/babdb5d)
+  - perf page manage_menu style &nbsp;-&nbsp; by @honghuangdc [<samp>(0aa75)</samp>](https://github.com/soybeanjs/soybean-admin/commit/0aa75c0)
+  - perf code &nbsp;-&nbsp; by @honghuangdc [<samp>(7fa87)</samp>](https://github.com/soybeanjs/soybean-admin/commit/7fa87f5)
+  - perf code &nbsp;-&nbsp; by @honghuangdc [<samp>(05db8)</samp>](https://github.com/soybeanjs/soybean-admin/commit/05db8c0)
+  - perf code &nbsp;-&nbsp; by @honghuangdc [<samp>(dc24a)</samp>](https://github.com/soybeanjs/soybean-admin/commit/dc24a36)
+  - perf manage page style &nbsp;-&nbsp; by @honghuangdc [<samp>(779ba)</samp>](https://github.com/soybeanjs/soybean-admin/commit/779ba4e)
+  - perf manage menu &nbsp;-&nbsp; by @honghuangdc [<samp>(71f2c)</samp>](https://github.com/soybeanjs/soybean-admin/commit/71f2c55)
+  - manage menu: add transform to component &nbsp;-&nbsp; by @honghuangdc [<samp>(0abbf)</samp>](https://github.com/soybeanjs/soybean-admin/commit/0abbfa5)
+  - perf code &nbsp;-&nbsp; by @honghuangdc [<samp>(a0bad)</samp>](https://github.com/soybeanjs/soybean-admin/commit/a0bad57)
+
+### &nbsp;&nbsp;&nbsp;💅 Refactors
+
+- **projects**:
+  - remove plugin-web-update-notification &nbsp;-&nbsp; by @honghuangdc [<samp>(f6c6d)</samp>](https://github.com/soybeanjs/soybean-admin/commit/f6c6dbd)
+  - fix conflict with locale file &nbsp;-&nbsp; by @honghuangdc [<samp>(3346b)</samp>](https://github.com/soybeanjs/soybean-admin/commit/3346bcd)
+  - refactor app-loading &nbsp;-&nbsp; by @honghuangdc [<samp>(b4f3d)</samp>](https://github.com/soybeanjs/soybean-admin/commit/b4f3dd2)
+  - use naive-ui color-picker &nbsp;-&nbsp; by @honghuangdc [<samp>(b5551)</samp>](https://github.com/soybeanjs/soybean-admin/commit/b5551d6)
+  - perf page home &nbsp;-&nbsp; by @honghuangdc [<samp>(4c61c)</samp>](https://github.com/soybeanjs/soybean-admin/commit/4c61c6f)
+  - login components => modules &nbsp;-&nbsp; by @honghuangdc [<samp>(59bec)</samp>](https://github.com/soybeanjs/soybean-admin/commit/59bec2d)
+  - perf page function_tab &nbsp;-&nbsp; by @honghuangdc [<samp>(b5477)</samp>](https://github.com/soybeanjs/soybean-admin/commit/b5477e8)
+  - update mock api &nbsp;-&nbsp; by @honghuangdc [<samp>(27241)</samp>](https://github.com/soybeanjs/soybean-admin/commit/2724169)
+  - page manage_role: extract module &nbsp;-&nbsp; by @honghuangdc [<samp>(0e9e2)</samp>](https://github.com/soybeanjs/soybean-admin/commit/0e9e2e1)
+  - perf page manage_role &nbsp;-&nbsp; by @honghuangdc [<samp>(a19f8)</samp>](https://github.com/soybeanjs/soybean-admin/commit/a19f895)
+  - manage_route => manage_menu &nbsp;-&nbsp; by @honghuangdc [<samp>(f8467)</samp>](https://github.com/soybeanjs/soybean-admin/commit/f8467ce)
+  - refactor service env config &nbsp;-&nbsp; by @honghuangdc [<samp>(43193)</samp>](https://github.com/soybeanjs/soybean-admin/commit/43193e2)
+  - refactor unocss shortcuts: wh-full => size-full &nbsp;-&nbsp; by @honghuangdc [<samp>(b4c00)</samp>](https://github.com/soybeanjs/soybean-admin/commit/b4c00ce)
+  - use enquirer replace prompts &nbsp;-&nbsp; by @honghuangdc [<samp>(b546f)</samp>](https://github.com/soybeanjs/soybean-admin/commit/b546ff8)
+  - refactor useTable &nbsp;-&nbsp; by @honghuangdc [<samp>(c3efa)</samp>](https://github.com/soybeanjs/soybean-admin/commit/c3efa1b)
+  - finish refactor useTable &nbsp;-&nbsp; by @honghuangdc [<samp>(86301)</samp>](https://github.com/soybeanjs/soybean-admin/commit/8630175)
+  - finish refactor useTable and apply &nbsp;-&nbsp; by @honghuangdc [<samp>(3fd15)</samp>](https://github.com/soybeanjs/soybean-admin/commit/3fd15e5)
+  - perf code &nbsp;-&nbsp; by @honghuangdc [<samp>(f91ef)</samp>](https://github.com/soybeanjs/soybean-admin/commit/f91ef30)
+  - new route guard &nbsp;-&nbsp; by @honghuangdc [<samp>(37d20)</samp>](https://github.com/soybeanjs/soybean-admin/commit/37d20b8)
+
+### &nbsp;&nbsp;&nbsp;📖 Documentation
+
+- **projects**:
+  - update README.md &nbsp;-&nbsp; by @honghuangdc [<samp>(78364)</samp>](https://github.com/soybeanjs/soybean-admin/commit/783648f)
+  - update README.md &nbsp;-&nbsp; by @honghuangdc [<samp>(1ea48)</samp>](https://github.com/soybeanjs/soybean-admin/commit/1ea4817)
+  - add README &nbsp;-&nbsp; by @honghuangdc [<samp>(2371b)</samp>](https://github.com/soybeanjs/soybean-admin/commit/2371ba8)
+  - update README &nbsp;-&nbsp; by @honghuangdc [<samp>(d16a9)</samp>](https://github.com/soybeanjs/soybean-admin/commit/d16a9d5)
+  - update README.md &nbsp;-&nbsp; by @honghuangdc [<samp>(6a771)</samp>](https://github.com/soybeanjs/soybean-admin/commit/6a771ea)
+  - update README.md &nbsp;-&nbsp; by @honghuangdc [<samp>(57b6d)</samp>](https://github.com/soybeanjs/soybean-admin/commit/57b6d8a)
+  - update README.md &nbsp;-&nbsp; by @honghuangdc [<samp>(b30c0)</samp>](https://github.com/soybeanjs/soybean-admin/commit/b30c035)
+  - update README.md &nbsp;-&nbsp; by @honghuangdc [<samp>(c260f)</samp>](https://github.com/soybeanjs/soybean-admin/commit/c260fe2)
+  - update README.md &nbsp;-&nbsp; by @honghuangdc [<samp>(03c42)</samp>](https://github.com/soybeanjs/soybean-admin/commit/03c42aa)
+  - update README.md &nbsp;-&nbsp; by @honghuangdc [<samp>(0fae9)</samp>](https://github.com/soybeanjs/soybean-admin/commit/0fae993)
+  - update README.md &nbsp;-&nbsp; by @honghuangdc [<samp>(4e4d2)</samp>](https://github.com/soybeanjs/soybean-admin/commit/4e4d2de)
+  - update README.md &nbsp;-&nbsp; by @honghuangdc [<samp>(86b44)</samp>](https://github.com/soybeanjs/soybean-admin/commit/86b445c)
+  - update README.md &nbsp;-&nbsp; by @honghuangdc [<samp>(e2085)</samp>](https://github.com/soybeanjs/soybean-admin/commit/e2085e0)
+  - update README.md &nbsp;-&nbsp; by @honghuangdc [<samp>(6ea9b)</samp>](https://github.com/soybeanjs/soybean-admin/commit/6ea9b85)
+  - update README.md &nbsp;-&nbsp; by @honghuangdc [<samp>(ef4af)</samp>](https://github.com/soybeanjs/soybean-admin/commit/ef4af79)
+  - update README.md &nbsp;-&nbsp; by @honghuangdc [<samp>(41830)</samp>](https://github.com/soybeanjs/soybean-admin/commit/418302a)
+  - add CHANGELOG.md &nbsp;-&nbsp; by @honghuangdc [<samp>(46b61)</samp>](https://github.com/soybeanjs/soybean-admin/commit/46b6156)
+  - add communication &nbsp;-&nbsp; by @honghuangdc [<samp>(8c7ea)</samp>](https://github.com/soybeanjs/soybean-admin/commit/8c7ea23)
+  - update README.md &nbsp;-&nbsp; by @honghuangdc [<samp>(07d8d)</samp>](https://github.com/soybeanjs/soybean-admin/commit/07d8d25)
+  - update README.md &nbsp;-&nbsp; by @honghuangdc [<samp>(1a707)</samp>](https://github.com/soybeanjs/soybean-admin/commit/1a7070f)
+  - update README.md &nbsp;-&nbsp; by @honghuangdc [<samp>(f69e1)</samp>](https://github.com/soybeanjs/soybean-admin/commit/f69e152)
+
+### &nbsp;&nbsp;&nbsp;🏡 Chore
+
+- **deps**:
+  - update deps &nbsp;-&nbsp; by @honghuangdc [<samp>(3eaf0)</samp>](https://github.com/soybeanjs/soybean-admin/commit/3eaf05b)
+  - update deps &nbsp;-&nbsp; by @honghuangdc [<samp>(36fe1)</samp>](https://github.com/soybeanjs/soybean-admin/commit/36fe1da)
+  - update deps &nbsp;-&nbsp; by @honghuangdc [<samp>(55342)</samp>](https://github.com/soybeanjs/soybean-admin/commit/5534294)
+  - update deps &nbsp;-&nbsp; by @honghuangdc [<samp>(f1b86)</samp>](https://github.com/soybeanjs/soybean-admin/commit/f1b86cc)
+  - update deps &nbsp;-&nbsp; by @honghuangdc [<samp>(840e7)</samp>](https://github.com/soybeanjs/soybean-admin/commit/840e7f9)
+  - update deps &nbsp;-&nbsp; by @honghuangdc [<samp>(6114b)</samp>](https://github.com/soybeanjs/soybean-admin/commit/6114b9f)
+  - update deps &nbsp;-&nbsp; by @honghuangdc [<samp>(9cc7e)</samp>](https://github.com/soybeanjs/soybean-admin/commit/9cc7ee5)
+  - update deps &nbsp;-&nbsp; by @honghuangdc [<samp>(9c4ba)</samp>](https://github.com/soybeanjs/soybean-admin/commit/9c4ba66)
+  - update deps &nbsp;-&nbsp; by @honghuangdc [<samp>(fb3b9)</samp>](https://github.com/soybeanjs/soybean-admin/commit/fb3b94b)
+  - update deps &nbsp;-&nbsp; by @honghuangdc [<samp>(14aa8)</samp>](https://github.com/soybeanjs/soybean-admin/commit/14aa856)
+  - update deps &nbsp;-&nbsp; by @honghuangdc [<samp>(02d4b)</samp>](https://github.com/soybeanjs/soybean-admin/commit/02d4b0a)
+  - update deps &nbsp;-&nbsp; by @honghuangdc [<samp>(b2ee9)</samp>](https://github.com/soybeanjs/soybean-admin/commit/b2ee9ee)
+  - update deps &nbsp;-&nbsp; by @honghuangdc [<samp>(0fee1)</samp>](https://github.com/soybeanjs/soybean-admin/commit/0fee104)
+  - update deps &nbsp;-&nbsp; by @honghuangdc [<samp>(c0a65)</samp>](https://github.com/soybeanjs/soybean-admin/commit/c0a65a1)
+  - update deps &nbsp;-&nbsp; by @honghuangdc [<samp>(6b513)</samp>](https://github.com/soybeanjs/soybean-admin/commit/6b5132c)
+  - update deps &nbsp;-&nbsp; by @honghuangdc [<samp>(82b53)</samp>](https://github.com/soybeanjs/soybean-admin/commit/82b53d7)
+- **project**:
+  - delete src/locales/lang/zh-CN.ts &nbsp;-&nbsp; by @honghuangdc [<samp>(377db)</samp>](https://github.com/soybeanjs/soybean-admin/commit/377db82)
+- **projects**:
+  - use eslint flat config & update config &nbsp;-&nbsp; by @honghuangdc [<samp>(a176d)</samp>](https://github.com/soybeanjs/soybean-admin/commit/a176dc4)
+  - update @sa/scripts &nbsp;-&nbsp; by @honghuangdc [<samp>(d7785)</samp>](https://github.com/soybeanjs/soybean-admin/commit/d778560)
+  - update pnpm version &nbsp;-&nbsp; by @honghuangdc [<samp>(55f76)</samp>](https://github.com/soybeanjs/soybean-admin/commit/55f7638)
+  - update eslint config &nbsp;-&nbsp; by @honghuangdc [<samp>(5023f)</samp>](https://github.com/soybeanjs/soybean-admin/commit/5023f37)
+  - lock deps versions &nbsp;-&nbsp; by @honghuangdc [<samp>(a24f9)</samp>](https://github.com/soybeanjs/soybean-admin/commit/a24f963)
+  - update pnpm version &nbsp;-&nbsp; by @honghuangdc [<samp>(ea02b)</samp>](https://github.com/soybeanjs/soybean-admin/commit/ea02b23)
+  - remove @simonwep/pickr &nbsp;-&nbsp; by @honghuangdc [<samp>(502a4)</samp>](https://github.com/soybeanjs/soybean-admin/commit/502a4d2)
+  - remove soybean.svg &nbsp;-&nbsp; by @honghuangdc [<samp>(4031f)</samp>](https://github.com/soybeanjs/soybean-admin/commit/4031faf)
+  - update pnpm version &nbsp;-&nbsp; by @honghuangdc [<samp>(adec0)</samp>](https://github.com/soybeanjs/soybean-admin/commit/adec0d7)
+  - update deps & fix keep-alive &nbsp;-&nbsp; by @honghuangdc [<samp>(13001)</samp>](https://github.com/soybeanjs/soybean-admin/commit/13001bc)
+  - update @elegant-router/vue, fix inject name in windows &nbsp;-&nbsp; by @honghuangdc [<samp>(0b56e)</samp>](https://github.com/soybeanjs/soybean-admin/commit/0b56e44)
+  - add dev and build command with service env &nbsp;-&nbsp; by @honghuangdc [<samp>(ebb15)</samp>](https://github.com/soybeanjs/soybean-admin/commit/ebb1548)
+  - update deps & remove packages docs &nbsp;-&nbsp; by @honghuangdc [<samp>(57963)</samp>](https://github.com/soybeanjs/soybean-admin/commit/579636b)
+  - update pnpm-lock.yaml &nbsp;-&nbsp; by @honghuangdc [<samp>(147f6)</samp>](https://github.com/soybeanjs/soybean-admin/commit/147f60d)
+  - update repository url &nbsp;-&nbsp; by @honghuangdc [<samp>(806a1)</samp>](https://github.com/soybeanjs/soybean-admin/commit/806a1cb)
+  - update deps & update pnpm version &nbsp;-&nbsp; by @honghuangdc [<samp>(9772a)</samp>](https://github.com/soybeanjs/soybean-admin/commit/9772aec)
+  - add unocss eslint config &nbsp;-&nbsp; by @honghuangdc [<samp>(40635)</samp>](https://github.com/soybeanjs/soybean-admin/commit/4063529)
+  - update launch.json &nbsp;-&nbsp; by @honghuangdc [<samp>(3db82)</samp>](https://github.com/soybeanjs/soybean-admin/commit/3db82ac)
+  - update vscode extensions.json &nbsp;-&nbsp; by @honghuangdc [<samp>(4e29a)</samp>](https://github.com/soybeanjs/soybean-admin/commit/4e29aca)
+  - update pnpm version &nbsp;-&nbsp; by @honghuangdc [<samp>(7065f)</samp>](https://github.com/soybeanjs/soybean-admin/commit/7065f6f)
+  - update deps & fix eslint vue rule &nbsp;-&nbsp; by @honghuangdc [<samp>(8143b)</samp>](https://github.com/soybeanjs/soybean-admin/commit/8143b00)
+  - update pnpm version &nbsp;-&nbsp; by @honghuangdc [<samp>(6ad51)</samp>](https://github.com/soybeanjs/soybean-admin/commit/6ad51e9)
+  - add .gitattributes &nbsp;-&nbsp; by @honghuangdc [<samp>(c0009)</samp>](https://github.com/soybeanjs/soybean-admin/commit/c000920)
+
+### &nbsp;&nbsp;&nbsp;🎨 Styles
+
+- **components**:
+  - Uniform icon size for header &nbsp;-&nbsp; by @Azir-11 [<samp>(b37c1)</samp>](https://github.com/soybeanjs/soybean-admin/commit/b37c1e9)
+- **projects**:
+  - format code &nbsp;-&nbsp; by @honghuangdc [<samp>(a7481)</samp>](https://github.com/soybeanjs/soybean-admin/commit/a748166)
+  - update theme mode segment height &nbsp;-&nbsp; by @honghuangdc [<samp>(4d846)</samp>](https://github.com/soybeanjs/soybean-admin/commit/4d8469e)
+  - fix tooltip zIndex of ButtonIcon &nbsp;-&nbsp; by @honghuangdc [<samp>(db747)</samp>](https://github.com/soybeanjs/soybean-admin/commit/db747c4)
+  - sort defineProps, defineEmits with TS type &nbsp;-&nbsp; by @honghuangdc [<samp>(123fd)</samp>](https://github.com/soybeanjs/soybean-admin/commit/123fd4f)
+
+### &nbsp;&nbsp;&nbsp;🤖 CI
+
+- **projects**:
+  - add github actions config &nbsp;-&nbsp; by @honghuangdc [<samp>(4cb17)</samp>](https://github.com/soybeanjs/soybean-admin/commit/4cb17c7)
+  - update release.yml &nbsp;-&nbsp; by @honghuangdc [<samp>(7b298)</samp>](https://github.com/soybeanjs/soybean-admin/commit/7b298c6)
+  - add issue template &nbsp;-&nbsp; by @honghuangdc [<samp>(06e20)</samp>](https://github.com/soybeanjs/soybean-admin/commit/06e204a)
+
+### &nbsp;&nbsp;&nbsp;❤️ Contributors
+
+[![honghuangdc](https://github.com/honghuangdc.png?size=48)](https://github.com/honghuangdc)&nbsp;&nbsp;[![Azir-11](https://github.com/Azir-11.png?size=48)](https://github.com/Azir-11)&nbsp;&nbsp;[![smileluck](https://github.com/smileluck.png?size=48)](https://github.com/smileluck)&nbsp;&nbsp;[![Particaly](https://github.com/Particaly.png?size=48)](https://github.com/Particaly)&nbsp;&nbsp;
+[~li](mailto:miciili-02@outlook.com),&nbsp;[Azir-11](mailto:2075125282@qq.com),&nbsp;[燕博文](mailto:349952469@qq.com),&nbsp;[tnt group](mailto:dodu@live.cn),&nbsp;[Kori](mailto:kexin@korix.top),&nbsp;
+
+## [v1.0.0-beta.3](https://github.com/soybeanjs/soybean-admin/compare/v1.0.0-beta.2...v1.0.0-beta.3) (2024-03-31)
+
+### &nbsp;&nbsp;&nbsp;📖 Documentation
+
+- **projects**: update README.md &nbsp;-&nbsp; by @honghuangdc [<samp>(f69e1)</samp>](https://github.com/soybeanjs/soybean-admin/commit/f69e152)
+
+### &nbsp;&nbsp;&nbsp;🏡 Chore
+
+- **deps**: update deps &nbsp;-&nbsp; by @honghuangdc [<samp>(82b53)</samp>](https://github.com/soybeanjs/soybean-admin/commit/82b53d7)
+- **projects**: add .gitattributes &nbsp;-&nbsp; by @honghuangdc [<samp>(c0009)</samp>](https://github.com/soybeanjs/soybean-admin/commit/c000920)
+
+### &nbsp;&nbsp;&nbsp;❤️ Contributors
+
+[![honghuangdc](https://github.com/honghuangdc.png?size=48)](https://github.com/honghuangdc)&nbsp;&nbsp;
+
+## [v1.0.0-beta.2](https://github.com/soybeanjs/soybean-admin/compare/v1.0.0-beta.1...v1.0.0-beta.2) (2024-03-27)
+
+### &nbsp;&nbsp;&nbsp;🐞 Bug Fixes
+
+- **projects**: fix pin-toggler toolTip zIndex &nbsp;-&nbsp; by @honghuangdc [<samp>(f89e6)</samp>](https://github.com/soybeanjs/soybean-admin/commit/f89e6c0)
+
+### &nbsp;&nbsp;&nbsp;🔥 Performance
+
+- **projects**: perf code &nbsp;-&nbsp; by @honghuangdc [<samp>(a0bad)</samp>](https://github.com/soybeanjs/soybean-admin/commit/a0bad57)
+
+### &nbsp;&nbsp;&nbsp;📖 Documentation
+
+- **projects**:
+  - add communication &nbsp;-&nbsp; by @honghuangdc [<samp>(8c7ea)</samp>](https://github.com/soybeanjs/soybean-admin/commit/8c7ea23)
+  - update README.md &nbsp;-&nbsp; by @honghuangdc [<samp>(07d8d)</samp>](https://github.com/soybeanjs/soybean-admin/commit/07d8d25)
+  - update README.md &nbsp;-&nbsp; by @honghuangdc [<samp>(1a707)</samp>](https://github.com/soybeanjs/soybean-admin/commit/1a7070f)
+
+### &nbsp;&nbsp;&nbsp;🏡 Chore
+
+- **deps**: update deps &nbsp;-&nbsp; by @honghuangdc [<samp>(6b513)</samp>](https://github.com/soybeanjs/soybean-admin/commit/6b5132c)
+
+### &nbsp;&nbsp;&nbsp;🤖 CI
+
+- **projects**:
+  - update release.yml &nbsp;-&nbsp; by @honghuangdc [<samp>(7b298)</samp>](https://github.com/soybeanjs/soybean-admin/commit/7b298c6)
+  - add issue template &nbsp;-&nbsp; by @honghuangdc [<samp>(06e20)</samp>](https://github.com/soybeanjs/soybean-admin/commit/06e204a)
+
+### &nbsp;&nbsp;&nbsp;❤️ Contributors
+
+[![honghuangdc](https://github.com/honghuangdc.png?size=48)](https://github.com/honghuangdc)&nbsp;&nbsp;
+
+## [v1.0.0-beta.1](https://github.com/soybeanjs/soybean-admin/compare/v0.10.4...v1.0.0-beta.1) (2024-03-25)
+
+### &nbsp;&nbsp;&nbsp;🚀 Features
+
+- internationalized menu search &nbsp;-&nbsp; by **Kori** [<samp>(9e115)</samp>](https://github.com/soybeanjs/soybean-admin/commit/9e115da)
+- **components**:
+  - enhance the custom strength of the 'TableHeaderOperation' component &nbsp;-&nbsp; by **tnt group** [<samp>(fdf64)</samp>](https://github.com/soybeanjs/soybean-admin/commit/fdf64f7)
+  - add GlobalSearch components &nbsp;-&nbsp; by **燕博文** [<samp>(9ea87)</samp>](https://github.com/soybeanjs/soybean-admin/commit/9ea8789)
+- **hooks**:
+  - add use-echarts &nbsp;-&nbsp; by @honghuangdc [<samp>(726ab)</samp>](https://github.com/soybeanjs/soybean-admin/commit/726abe4)
+- **projects**:
+  - 1.0 beta &nbsp;-&nbsp; by @honghuangdc [<samp>(e918a)</samp>](https://github.com/soybeanjs/soybean-admin/commit/e918a2c)
+  - support Vite5 &nbsp;-&nbsp; by @honghuangdc [<samp>(96e4a)</samp>](https://github.com/soybeanjs/soybean-admin/commit/96e4aff)
+  - @sa/axios: createRequest, createFlatRequest, createHookRequest &nbsp;-&nbsp; by @honghuangdc [<samp>(bac16)</samp>](https://github.com/soybeanjs/soybean-admin/commit/bac1632)
+  - add app loading &nbsp;-&nbsp; by @honghuangdc [<samp>(c6545)</samp>](https://github.com/soybeanjs/soybean-admin/commit/c65451b)
+  - add copyright, unocss shortcut: card-wrapper, update package.json &nbsp;-&nbsp; by @honghuangdc [<samp>(affcc)</samp>](https://github.com/soybeanjs/soybean-admin/commit/affcc26)
+  - add page: about &nbsp;-&nbsp; by @honghuangdc [<samp>(4955f)</samp>](https://github.com/soybeanjs/soybean-admin/commit/4955f1a)
+  - add custom route exception &nbsp;-&nbsp; by @honghuangdc [<samp>(b43c9)</samp>](https://github.com/soybeanjs/soybean-admin/commit/b43c925)
+  - filter tabs which are not in routes &nbsp;-&nbsp; by @honghuangdc [<samp>(f59f3)</samp>](https://github.com/soybeanjs/soybean-admin/commit/f59f348)
+  - packages/scripts: add command changelog,release &nbsp;-&nbsp; by @honghuangdc [<samp>(dafb6)</samp>](https://github.com/soybeanjs/soybean-admin/commit/dafb6fa)
+  - add script: gen-route &nbsp;-&nbsp; by @honghuangdc [<samp>(697c1)</samp>](https://github.com/soybeanjs/soybean-admin/commit/697c1b6)
+  - @sa/axios: add qs stringify for params &nbsp;-&nbsp; by @honghuangdc [<samp>(2400c)</samp>](https://github.com/soybeanjs/soybean-admin/commit/2400c02)
+  - page home & perf useEcharts &nbsp;-&nbsp; by @honghuangdc [<samp>(62e4d)</samp>](https://github.com/soybeanjs/soybean-admin/commit/62e4da0)
+  - finish page home &nbsp;-&nbsp; by @honghuangdc [<samp>(7bd1e)</samp>](https://github.com/soybeanjs/soybean-admin/commit/7bd1e47)
+  - add page function_tab &nbsp;-&nbsp; by @honghuangdc [<samp>(6ff86)</samp>](https://github.com/soybeanjs/soybean-admin/commit/6ff86e7)
+  - page manage_role &nbsp;-&nbsp; by @honghuangdc [<samp>(237c6)</samp>](https://github.com/soybeanjs/soybean-admin/commit/237c6d2)
+  - page manage_user &nbsp;-&nbsp; by @honghuangdc [<samp>(8a170)</samp>](https://github.com/soybeanjs/soybean-admin/commit/8a170ee)
+  - page manage_menu &nbsp;-&nbsp; by @honghuangdc [<samp>(87d65)</samp>](https://github.com/soybeanjs/soybean-admin/commit/87d65d3)
+  - page manage_menu operateDrawer &nbsp;-&nbsp; by @honghuangdc [<samp>(db17c)</samp>](https://github.com/soybeanjs/soybean-admin/commit/db17c91)
+  - Add type to TabRoute: matched &nbsp;-&nbsp; by @Azir-11 [<samp>(2d102)</samp>](https://github.com/soybeanjs/soybean-admin/commit/2d102a0)
+  - support directory menu hide all child menus. fixed #325 &nbsp;-&nbsp; by @honghuangdc in https://github.com/soybeanjs/soybean-admin/issues/325 [<samp>(7256a)</samp>](https://github.com/soybeanjs/soybean-admin/commit/7256ad4)
+  - mock manage list data with pagination &nbsp;-&nbsp; by @honghuangdc [<samp>(1a6be)</samp>](https://github.com/soybeanjs/soybean-admin/commit/1a6be00)
+  - globalSearch add i18n &nbsp;-&nbsp; by **燕博文** [<samp>(0126d)</samp>](https://github.com/soybeanjs/soybean-admin/commit/0126da4)
+  - Add route meta parameter:fixedQuery &nbsp;-&nbsp; by @Azir-11 [<samp>(874aa)</samp>](https://github.com/soybeanjs/soybean-admin/commit/874aaca)
+  - update &nbsp;-&nbsp; by @honghuangdc [<samp>(4158a)</samp>](https://github.com/soybeanjs/soybean-admin/commit/4158a72)
+  - change borderRadius to 6px of naiveUI &nbsp;-&nbsp; by @honghuangdc [<samp>(49558)</samp>](https://github.com/soybeanjs/soybean-admin/commit/49558ca)
+  - pef manage role &nbsp;-&nbsp; by @honghuangdc [<samp>(18709)</samp>](https://github.com/soybeanjs/soybean-admin/commit/1870981)
+  - login page: code-login &nbsp;-&nbsp; by @honghuangdc [<samp>(c91dd)</samp>](https://github.com/soybeanjs/soybean-admin/commit/c91dd28)
+  - login page: register &nbsp;-&nbsp; by @honghuangdc [<samp>(1ed33)</samp>](https://github.com/soybeanjs/soybean-admin/commit/1ed33dc)
+  - add request refresh token & logout &nbsp;-&nbsp; by @honghuangdc [<samp>(11a6a)</samp>](https://github.com/soybeanjs/soybean-admin/commit/11a6a3b)
+  - add request exception example page &nbsp;-&nbsp; by @honghuangdc [<samp>(41e8b)</samp>](https://github.com/soybeanjs/soybean-admin/commit/41e8bc4)
+  - add auth example &nbsp;-&nbsp; by @honghuangdc [<samp>(c11d5)</samp>](https://github.com/soybeanjs/soybean-admin/commit/c11d56d)
+- **router**:
+  - add sortRoutesByOrder function &nbsp;-&nbsp; by @Azir-11 [<samp>(0cf09)</samp>](https://github.com/soybeanjs/soybean-admin/commit/0cf09ba)
+
+### &nbsp;&nbsp;&nbsp;🐞 Bug Fixes
+
+- **components**:
+  - fix tooltip zIndex of ButtonIcon &nbsp;-&nbsp; by @honghuangdc [<samp>(99097)</samp>](https://github.com/soybeanjs/soybean-admin/commit/99097b4)
+  - supplement the `NaiveUI` type &nbsp;-&nbsp; by **tnt group** [<samp>(ccc2b)</samp>](https://github.com/soybeanjs/soybean-admin/commit/ccc2b67)
+  - fix homeTab closeRight and disable colseLeft &nbsp;-&nbsp; by **~li** [<samp>(d28bf)</samp>](https://github.com/soybeanjs/soybean-admin/commit/d28bf52)
+- **hooks**:
+  - Fix Naive Pagination's outdated API &nbsp;-&nbsp; by **tnt group** [<samp>(37436)</samp>](https://github.com/soybeanjs/soybean-admin/commit/3743612)
+- **projects**:
+  - 修复路由命名为包含关系时导致导航数据出错的问题 &nbsp;-&nbsp; by **pantao** [<samp>(76636)</samp>](https://github.com/soybeanjs/soybean-admin/commit/766369f)
+  - rename zh-ch &nbsp;-&nbsp; by @honghuangdc [<samp>(a8a77)</samp>](https://github.com/soybeanjs/soybean-admin/commit/a8a77ea)
+  - Fix welcome notification not closing &nbsp;-&nbsp; by @Azir-11 [<samp>(748cf)</samp>](https://github.com/soybeanjs/soybean-admin/commit/748cfa2)
+  - fix i18n vscode settings &nbsp;-&nbsp; by @honghuangdc [<samp>(fbf4c)</samp>](https://github.com/soybeanjs/soybean-admin/commit/fbf4cc4)
+  - add duration of login success notification &nbsp;-&nbsp; by @honghuangdc [<samp>(1335d)</samp>](https://github.com/soybeanjs/soybean-admin/commit/1335d47)
+  - fix menu indent &nbsp;-&nbsp; by @honghuangdc [<samp>(87143)</samp>](https://github.com/soybeanjs/soybean-admin/commit/8714317)
+  - fix theme mode segment &nbsp;-&nbsp; by @honghuangdc [<samp>(2372d)</samp>](https://github.com/soybeanjs/soybean-admin/commit/2372dc9)
+  - fix app loading theme color &nbsp;-&nbsp; by @honghuangdc [<samp>(0ba19)</samp>](https://github.com/soybeanjs/soybean-admin/commit/0ba19d5)
+  - fix page about style in mobile &nbsp;-&nbsp; by @honghuangdc [<samp>(8b6de)</samp>](https://github.com/soybeanjs/soybean-admin/commit/8b6de48)
+  - fix themeDrawer darkMode segement &nbsp;-&nbsp; by @honghuangdc [<samp>(1b5ca)</samp>](https://github.com/soybeanjs/soybean-admin/commit/1b5caa0)
+  - fix themeDrawer copy &nbsp;-&nbsp; by @honghuangdc [<samp>(b3779)</samp>](https://github.com/soybeanjs/soybean-admin/commit/b3779a6)
+  - remove space in tab content &nbsp;-&nbsp; by @honghuangdc [<samp>(4aae6)</samp>](https://github.com/soybeanjs/soybean-admin/commit/4aae6a5)
+  - fix horizontal menu &nbsp;-&nbsp; by @honghuangdc [<samp>(d886e)</samp>](https://github.com/soybeanjs/soybean-admin/commit/d886e50)
+  - perf card style &nbsp;-&nbsp; by @honghuangdc [<samp>(c1afb)</samp>](https://github.com/soybeanjs/soybean-admin/commit/c1afb9d)
+  - fix manage_user title &nbsp;-&nbsp; by @honghuangdc [<samp>(7770b)</samp>](https://github.com/soybeanjs/soybean-admin/commit/7770b37)
+  - default proxy prefix &nbsp;-&nbsp; by @smileluck [<samp>(da246)</samp>](https://github.com/soybeanjs/soybean-admin/commit/da24642)
+  - fix request msg &nbsp;-&nbsp; by @honghuangdc [<samp>(ae6b6)</samp>](https://github.com/soybeanjs/soybean-admin/commit/ae6b613)
+  - Fix the issue of tab error displaying parent localIcon &nbsp;-&nbsp; by @Azir-11 [<samp>(a9c98)</samp>](https://github.com/soybeanjs/soybean-admin/commit/a9c98d9)
+  - The matched value of TabRoute should be optional &nbsp;-&nbsp; by @Azir-11 [<samp>(e6fed)</samp>](https://github.com/soybeanjs/soybean-admin/commit/e6fed1f)
+  - fix build [unocss]: build failed to load icon "close", fixed #319 &nbsp;-&nbsp; by @honghuangdc in https://github.com/soybeanjs/soybean-admin/issues/319 [<samp>(c18d8)</samp>](https://github.com/soybeanjs/soybean-admin/commit/c18d82f)
+  - fix resolve alias &nbsp;-&nbsp; by @honghuangdc [<samp>(3bdcb)</samp>](https://github.com/soybeanjs/soybean-admin/commit/3bdcbc7)
+  - Missing default value for tab icon &nbsp;-&nbsp; by @Azir-11 [<samp>(72a46)</samp>](https://github.com/soybeanjs/soybean-admin/commit/72a4679)
+  - add route icon: fucntion_hide-child &nbsp;-&nbsp; by @honghuangdc [<samp>(0a3ef)</samp>](https://github.com/soybeanjs/soybean-admin/commit/0a3efe3)
+  - fix table x-scroll. fixed #324 &nbsp;-&nbsp; by @honghuangdc in https://github.com/soybeanjs/soybean-admin/issues/324 [<samp>(c7e2c)</samp>](https://github.com/soybeanjs/soybean-admin/commit/c7e2c55)
+  - Fix the logic of root route redirection to home &nbsp;-&nbsp; by **恕瑞玛的皇帝** [<samp>(0123c)</samp>](https://github.com/soybeanjs/soybean-admin/commit/0123c37)
+  - Fix homepage mount error under dynamic routing &nbsp;-&nbsp; by **恕瑞玛的皇帝** [<samp>(9cf2a)</samp>](https://github.com/soybeanjs/soybean-admin/commit/9cf2a51)
+  - fix repeat home tab &nbsp;-&nbsp; by @honghuangdc [<samp>(bccd6)</samp>](https://github.com/soybeanjs/soybean-admin/commit/bccd6cb)
+  - fix proxy config &nbsp;-&nbsp; by @honghuangdc [<samp>(c8019)</samp>](https://github.com/soybeanjs/soybean-admin/commit/c8019c4)
+  - fix proxy config &nbsp;-&nbsp; by @honghuangdc [<samp>(ffc95)</samp>](https://github.com/soybeanjs/soybean-admin/commit/ffc95d2)
+  - fix table row-key ts type &nbsp;-&nbsp; by @honghuangdc [<samp>(0cc8f)</samp>](https://github.com/soybeanjs/soybean-admin/commit/0cc8f05)
+  - fix class name conflict with unocss icon &nbsp;-&nbsp; by @honghuangdc [<samp>(455e4)</samp>](https://github.com/soybeanjs/soybean-admin/commit/455e48f)
+  - fix repeat routes &nbsp;-&nbsp; by @honghuangdc [<samp>(2c543)</samp>](https://github.com/soybeanjs/soybean-admin/commit/2c543f1)
+  - fix route init &nbsp;-&nbsp; by @honghuangdc [<samp>(23a40)</samp>](https://github.com/soybeanjs/soybean-admin/commit/23a4098)
+
+### &nbsp;&nbsp;&nbsp;🔥 Performance
+
+- **components**:
+  - Optimize internationalized menu search code &nbsp;-&nbsp; by **燕博文** [<samp>(8c1ef)</samp>](https://github.com/soybeanjs/soybean-admin/commit/8c1ef4b)
+  - Optimize menu search code &nbsp;-&nbsp; by **燕博文** [<samp>(296a2)</samp>](https://github.com/soybeanjs/soybean-admin/commit/296a2d2)
+  - perf count-to &nbsp;-&nbsp; by @honghuangdc [<samp>(b2c61)</samp>](https://github.com/soybeanjs/soybean-admin/commit/b2c61f0)
+  - components  name is converted to uppercase &nbsp;-&nbsp; by **燕博文** [<samp>(04aa1)</samp>](https://github.com/soybeanjs/soybean-admin/commit/04aa10b)
+  - perf global-search &nbsp;-&nbsp; by @honghuangdc [<samp>(72745)</samp>](https://github.com/soybeanjs/soybean-admin/commit/7274522)
+- **projects**:
+  - perf code &nbsp;-&nbsp; by @honghuangdc [<samp>(8081e)</samp>](https://github.com/soybeanjs/soybean-admin/commit/8081e19)
+  - env config &nbsp;-&nbsp; by @honghuangdc [<samp>(1bac3)</samp>](https://github.com/soybeanjs/soybean-admin/commit/1bac3b7)
+  - add detailed annotations for route role &nbsp;-&nbsp; by @honghuangdc [<samp>(f6bab)</samp>](https://github.com/soybeanjs/soybean-admin/commit/f6bab0c)
+  - perf code &nbsp;-&nbsp; by @honghuangdc [<samp>(5c49d)</samp>](https://github.com/soybeanjs/soybean-admin/commit/5c49d24)
+  - remove useless file &nbsp;-&nbsp; by @honghuangdc [<samp>(c624f)</samp>](https://github.com/soybeanjs/soybean-admin/commit/c624f32)
+  - remove @soybeanjs/cli &nbsp;-&nbsp; by @honghuangdc [<samp>(41349)</samp>](https://github.com/soybeanjs/soybean-admin/commit/4134955)
+  - echarts loading style &nbsp;-&nbsp; by @honghuangdc [<samp>(456c3)</samp>](https://github.com/soybeanjs/soybean-admin/commit/456c318)
+  - perf page manage_role, useTable &nbsp;-&nbsp; by @honghuangdc [<samp>(39aa7)</samp>](https://github.com/soybeanjs/soybean-admin/commit/39aa7aa)
+  - perf table columns style &nbsp;-&nbsp; by @honghuangdc [<samp>(babdb)</samp>](https://github.com/soybeanjs/soybean-admin/commit/babdb5d)
+  - perf page manage_menu style &nbsp;-&nbsp; by @honghuangdc [<samp>(0aa75)</samp>](https://github.com/soybeanjs/soybean-admin/commit/0aa75c0)
+  - perf code &nbsp;-&nbsp; by @honghuangdc [<samp>(7fa87)</samp>](https://github.com/soybeanjs/soybean-admin/commit/7fa87f5)
+  - perf code &nbsp;-&nbsp; by @honghuangdc [<samp>(05db8)</samp>](https://github.com/soybeanjs/soybean-admin/commit/05db8c0)
+  - perf code &nbsp;-&nbsp; by @honghuangdc [<samp>(dc24a)</samp>](https://github.com/soybeanjs/soybean-admin/commit/dc24a36)
+  - perf manage page style &nbsp;-&nbsp; by @honghuangdc [<samp>(779ba)</samp>](https://github.com/soybeanjs/soybean-admin/commit/779ba4e)
+  - perf manage menu &nbsp;-&nbsp; by @honghuangdc [<samp>(71f2c)</samp>](https://github.com/soybeanjs/soybean-admin/commit/71f2c55)
+  - manage menu: add transform to component &nbsp;-&nbsp; by @honghuangdc [<samp>(0abbf)</samp>](https://github.com/soybeanjs/soybean-admin/commit/0abbfa5)
+
+### &nbsp;&nbsp;&nbsp;💅 Refactors
+
+- **projects**:
+  - remove plugin-web-update-notification &nbsp;-&nbsp; by @honghuangdc [<samp>(f6c6d)</samp>](https://github.com/soybeanjs/soybean-admin/commit/f6c6dbd)
+  - fix conflict with locale file &nbsp;-&nbsp; by @honghuangdc [<samp>(3346b)</samp>](https://github.com/soybeanjs/soybean-admin/commit/3346bcd)
+  - refactor app-loading &nbsp;-&nbsp; by @honghuangdc [<samp>(b4f3d)</samp>](https://github.com/soybeanjs/soybean-admin/commit/b4f3dd2)
+  - use naive-ui color-picker &nbsp;-&nbsp; by @honghuangdc [<samp>(b5551)</samp>](https://github.com/soybeanjs/soybean-admin/commit/b5551d6)
+  - perf page home &nbsp;-&nbsp; by @honghuangdc [<samp>(4c61c)</samp>](https://github.com/soybeanjs/soybean-admin/commit/4c61c6f)
+  - login components => modules &nbsp;-&nbsp; by @honghuangdc [<samp>(59bec)</samp>](https://github.com/soybeanjs/soybean-admin/commit/59bec2d)
+  - perf page function_tab &nbsp;-&nbsp; by @honghuangdc [<samp>(b5477)</samp>](https://github.com/soybeanjs/soybean-admin/commit/b5477e8)
+  - update mock api &nbsp;-&nbsp; by @honghuangdc [<samp>(27241)</samp>](https://github.com/soybeanjs/soybean-admin/commit/2724169)
+  - page manage_role: extract module &nbsp;-&nbsp; by @honghuangdc [<samp>(0e9e2)</samp>](https://github.com/soybeanjs/soybean-admin/commit/0e9e2e1)
+  - perf page manage_role &nbsp;-&nbsp; by @honghuangdc [<samp>(a19f8)</samp>](https://github.com/soybeanjs/soybean-admin/commit/a19f895)
+  - manage_route => manage_menu &nbsp;-&nbsp; by @honghuangdc [<samp>(f8467)</samp>](https://github.com/soybeanjs/soybean-admin/commit/f8467ce)
+  - refactor service env config &nbsp;-&nbsp; by @honghuangdc [<samp>(43193)</samp>](https://github.com/soybeanjs/soybean-admin/commit/43193e2)
+  - refactor unocss shortcuts: wh-full => size-full &nbsp;-&nbsp; by @honghuangdc [<samp>(b4c00)</samp>](https://github.com/soybeanjs/soybean-admin/commit/b4c00ce)
+  - use enquirer replace prompts &nbsp;-&nbsp; by @honghuangdc [<samp>(b546f)</samp>](https://github.com/soybeanjs/soybean-admin/commit/b546ff8)
+  - refactor useTable &nbsp;-&nbsp; by @honghuangdc [<samp>(c3efa)</samp>](https://github.com/soybeanjs/soybean-admin/commit/c3efa1b)
+  - finish refactor useTable &nbsp;-&nbsp; by @honghuangdc [<samp>(86301)</samp>](https://github.com/soybeanjs/soybean-admin/commit/8630175)
+  - finish refactor useTable and apply &nbsp;-&nbsp; by @honghuangdc [<samp>(3fd15)</samp>](https://github.com/soybeanjs/soybean-admin/commit/3fd15e5)
+  - perf code &nbsp;-&nbsp; by @honghuangdc [<samp>(f91ef)</samp>](https://github.com/soybeanjs/soybean-admin/commit/f91ef30)
+  - new route guard &nbsp;-&nbsp; by @honghuangdc [<samp>(37d20)</samp>](https://github.com/soybeanjs/soybean-admin/commit/37d20b8)
+
+### &nbsp;&nbsp;&nbsp;📖 Documentation
+
+- **projects**:
+  - update README.md &nbsp;-&nbsp; by @honghuangdc [<samp>(78364)</samp>](https://github.com/soybeanjs/soybean-admin/commit/783648f)
+  - update README.md &nbsp;-&nbsp; by @honghuangdc [<samp>(1ea48)</samp>](https://github.com/soybeanjs/soybean-admin/commit/1ea4817)
+  - add README &nbsp;-&nbsp; by @honghuangdc [<samp>(2371b)</samp>](https://github.com/soybeanjs/soybean-admin/commit/2371ba8)
+  - update README &nbsp;-&nbsp; by @honghuangdc [<samp>(d16a9)</samp>](https://github.com/soybeanjs/soybean-admin/commit/d16a9d5)
+  - update README.md &nbsp;-&nbsp; by @honghuangdc [<samp>(6a771)</samp>](https://github.com/soybeanjs/soybean-admin/commit/6a771ea)
+  - update README.md &nbsp;-&nbsp; by @honghuangdc [<samp>(57b6d)</samp>](https://github.com/soybeanjs/soybean-admin/commit/57b6d8a)
+  - update README.md &nbsp;-&nbsp; by @honghuangdc [<samp>(b30c0)</samp>](https://github.com/soybeanjs/soybean-admin/commit/b30c035)
+  - update README.md &nbsp;-&nbsp; by @honghuangdc [<samp>(c260f)</samp>](https://github.com/soybeanjs/soybean-admin/commit/c260fe2)
+  - update README.md &nbsp;-&nbsp; by @honghuangdc [<samp>(03c42)</samp>](https://github.com/soybeanjs/soybean-admin/commit/03c42aa)
+  - update README.md &nbsp;-&nbsp; by @honghuangdc [<samp>(0fae9)</samp>](https://github.com/soybeanjs/soybean-admin/commit/0fae993)
+  - update README.md &nbsp;-&nbsp; by @honghuangdc [<samp>(4e4d2)</samp>](https://github.com/soybeanjs/soybean-admin/commit/4e4d2de)
+  - update README.md &nbsp;-&nbsp; by @honghuangdc [<samp>(86b44)</samp>](https://github.com/soybeanjs/soybean-admin/commit/86b445c)
+  - update README.md &nbsp;-&nbsp; by @honghuangdc [<samp>(e2085)</samp>](https://github.com/soybeanjs/soybean-admin/commit/e2085e0)
+  - update README.md &nbsp;-&nbsp; by @honghuangdc [<samp>(6ea9b)</samp>](https://github.com/soybeanjs/soybean-admin/commit/6ea9b85)
+  - update README.md &nbsp;-&nbsp; by @honghuangdc [<samp>(ef4af)</samp>](https://github.com/soybeanjs/soybean-admin/commit/ef4af79)
+  - update README.md &nbsp;-&nbsp; by @honghuangdc [<samp>(41830)</samp>](https://github.com/soybeanjs/soybean-admin/commit/418302a)
+  - add CHANGELOG.md &nbsp;-&nbsp; by @honghuangdc [<samp>(46b61)</samp>](https://github.com/soybeanjs/soybean-admin/commit/46b6156)
+
+### &nbsp;&nbsp;&nbsp;🏡 Chore
+
+- **deps**:
+  - update deps &nbsp;-&nbsp; by @honghuangdc [<samp>(3eaf0)</samp>](https://github.com/soybeanjs/soybean-admin/commit/3eaf05b)
+  - update deps &nbsp;-&nbsp; by @honghuangdc [<samp>(36fe1)</samp>](https://github.com/soybeanjs/soybean-admin/commit/36fe1da)
+  - update deps &nbsp;-&nbsp; by @honghuangdc [<samp>(55342)</samp>](https://github.com/soybeanjs/soybean-admin/commit/5534294)
+  - update deps &nbsp;-&nbsp; by @honghuangdc [<samp>(f1b86)</samp>](https://github.com/soybeanjs/soybean-admin/commit/f1b86cc)
+  - update deps &nbsp;-&nbsp; by @honghuangdc [<samp>(840e7)</samp>](https://github.com/soybeanjs/soybean-admin/commit/840e7f9)
+  - update deps &nbsp;-&nbsp; by @honghuangdc [<samp>(6114b)</samp>](https://github.com/soybeanjs/soybean-admin/commit/6114b9f)
+  - update deps &nbsp;-&nbsp; by @honghuangdc [<samp>(9cc7e)</samp>](https://github.com/soybeanjs/soybean-admin/commit/9cc7ee5)
+  - update deps &nbsp;-&nbsp; by @honghuangdc [<samp>(9c4ba)</samp>](https://github.com/soybeanjs/soybean-admin/commit/9c4ba66)
+  - update deps &nbsp;-&nbsp; by @honghuangdc [<samp>(fb3b9)</samp>](https://github.com/soybeanjs/soybean-admin/commit/fb3b94b)
+  - update deps &nbsp;-&nbsp; by @honghuangdc [<samp>(14aa8)</samp>](https://github.com/soybeanjs/soybean-admin/commit/14aa856)
+  - update deps &nbsp;-&nbsp; by @honghuangdc [<samp>(02d4b)</samp>](https://github.com/soybeanjs/soybean-admin/commit/02d4b0a)
+  - update deps &nbsp;-&nbsp; by @honghuangdc [<samp>(b2ee9)</samp>](https://github.com/soybeanjs/soybean-admin/commit/b2ee9ee)
+  - update deps &nbsp;-&nbsp; by @honghuangdc [<samp>(0fee1)</samp>](https://github.com/soybeanjs/soybean-admin/commit/0fee104)
+  - update deps &nbsp;-&nbsp; by @honghuangdc [<samp>(c0a65)</samp>](https://github.com/soybeanjs/soybean-admin/commit/c0a65a1)
+- **project**:
+  - delete src/locales/lang/zh-CN.ts &nbsp;-&nbsp; by @honghuangdc [<samp>(377db)</samp>](https://github.com/soybeanjs/soybean-admin/commit/377db82)
+- **projects**:
+  - use eslint flat config & update config &nbsp;-&nbsp; by @honghuangdc [<samp>(a176d)</samp>](https://github.com/soybeanjs/soybean-admin/commit/a176dc4)
+  - update @sa/scripts &nbsp;-&nbsp; by @honghuangdc [<samp>(d7785)</samp>](https://github.com/soybeanjs/soybean-admin/commit/d778560)
+  - update pnpm version &nbsp;-&nbsp; by @honghuangdc [<samp>(55f76)</samp>](https://github.com/soybeanjs/soybean-admin/commit/55f7638)
+  - update eslint config &nbsp;-&nbsp; by @honghuangdc [<samp>(5023f)</samp>](https://github.com/soybeanjs/soybean-admin/commit/5023f37)
+  - lock deps versions &nbsp;-&nbsp; by @honghuangdc [<samp>(a24f9)</samp>](https://github.com/soybeanjs/soybean-admin/commit/a24f963)
+  - update pnpm version &nbsp;-&nbsp; by @honghuangdc [<samp>(ea02b)</samp>](https://github.com/soybeanjs/soybean-admin/commit/ea02b23)
+  - remove @simonwep/pickr &nbsp;-&nbsp; by @honghuangdc [<samp>(502a4)</samp>](https://github.com/soybeanjs/soybean-admin/commit/502a4d2)
+  - remove soybean.svg &nbsp;-&nbsp; by @honghuangdc [<samp>(4031f)</samp>](https://github.com/soybeanjs/soybean-admin/commit/4031faf)
+  - update pnpm version &nbsp;-&nbsp; by @honghuangdc [<samp>(adec0)</samp>](https://github.com/soybeanjs/soybean-admin/commit/adec0d7)
+  - update deps & fix keep-alive &nbsp;-&nbsp; by @honghuangdc [<samp>(13001)</samp>](https://github.com/soybeanjs/soybean-admin/commit/13001bc)
+  - update @elegant-router/vue, fix inject name in windows &nbsp;-&nbsp; by @honghuangdc [<samp>(0b56e)</samp>](https://github.com/soybeanjs/soybean-admin/commit/0b56e44)
+  - add dev and build command with service env &nbsp;-&nbsp; by @honghuangdc [<samp>(ebb15)</samp>](https://github.com/soybeanjs/soybean-admin/commit/ebb1548)
+  - update deps & remove packages docs &nbsp;-&nbsp; by @honghuangdc [<samp>(57963)</samp>](https://github.com/soybeanjs/soybean-admin/commit/579636b)
+  - update pnpm-lock.yaml &nbsp;-&nbsp; by @honghuangdc [<samp>(147f6)</samp>](https://github.com/soybeanjs/soybean-admin/commit/147f60d)
+  - update repository url &nbsp;-&nbsp; by @honghuangdc [<samp>(806a1)</samp>](https://github.com/soybeanjs/soybean-admin/commit/806a1cb)
+  - update deps & update pnpm version &nbsp;-&nbsp; by @honghuangdc [<samp>(9772a)</samp>](https://github.com/soybeanjs/soybean-admin/commit/9772aec)
+  - add unocss eslint config &nbsp;-&nbsp; by @honghuangdc [<samp>(40635)</samp>](https://github.com/soybeanjs/soybean-admin/commit/4063529)
+  - update launch.json &nbsp;-&nbsp; by @honghuangdc [<samp>(3db82)</samp>](https://github.com/soybeanjs/soybean-admin/commit/3db82ac)
+  - update vscode extensions.json &nbsp;-&nbsp; by @honghuangdc [<samp>(4e29a)</samp>](https://github.com/soybeanjs/soybean-admin/commit/4e29aca)
+  - update pnpm version &nbsp;-&nbsp; by @honghuangdc [<samp>(7065f)</samp>](https://github.com/soybeanjs/soybean-admin/commit/7065f6f)
+  - update deps & fix eslint vue rule &nbsp;-&nbsp; by @honghuangdc [<samp>(8143b)</samp>](https://github.com/soybeanjs/soybean-admin/commit/8143b00)
+  - update pnpm version &nbsp;-&nbsp; by @honghuangdc [<samp>(6ad51)</samp>](https://github.com/soybeanjs/soybean-admin/commit/6ad51e9)
+
+### &nbsp;&nbsp;&nbsp;🎨 Styles
+
+- **components**:
+  - Uniform icon size for header &nbsp;-&nbsp; by @Azir-11 [<samp>(b37c1)</samp>](https://github.com/soybeanjs/soybean-admin/commit/b37c1e9)
+- **projects**:
+  - format code &nbsp;-&nbsp; by @honghuangdc [<samp>(a7481)</samp>](https://github.com/soybeanjs/soybean-admin/commit/a748166)
+  - update theme mode segment height &nbsp;-&nbsp; by @honghuangdc [<samp>(4d846)</samp>](https://github.com/soybeanjs/soybean-admin/commit/4d8469e)
+  - fix tooltip zIndex of ButtonIcon &nbsp;-&nbsp; by @honghuangdc [<samp>(db747)</samp>](https://github.com/soybeanjs/soybean-admin/commit/db747c4)
+  - sort defineProps, defineEmits with TS type &nbsp;-&nbsp; by @honghuangdc [<samp>(123fd)</samp>](https://github.com/soybeanjs/soybean-admin/commit/123fd4f)
+
+### &nbsp;&nbsp;&nbsp;🤖 CI
+
+- **projects**: add github actions config &nbsp;-&nbsp; by @honghuangdc [<samp>(4cb17)</samp>](https://github.com/soybeanjs/soybean-admin/commit/4cb17c7)
+
+### &nbsp;&nbsp;&nbsp;❤️ Contributors
+
+[![honghuangdc](https://github.com/honghuangdc.png?size=48)](https://github.com/honghuangdc)&nbsp;&nbsp;[![Azir-11](https://github.com/Azir-11.png?size=48)](https://github.com/Azir-11)&nbsp;&nbsp;[![smileluck](https://github.com/smileluck.png?size=48)](https://github.com/smileluck)&nbsp;&nbsp;[![Particaly](https://github.com/Particaly.png?size=48)](https://github.com/Particaly)&nbsp;&nbsp;
+[~li](mailto:miciili-02@outlook.com),&nbsp;[Azir-11](mailto:2075125282@qq.com),&nbsp;[燕博文](mailto:349952469@qq.com),&nbsp;[tnt group](mailto:dodu@live.cn),&nbsp;[Kori](mailto:kexin@korix.top),&nbsp;
+
+## [v0.10.4](https://github.com/honghuangdc/soybean-admin/compare/v0.10.3...v0.10.4) (23-09-20)
+
+### &nbsp;&nbsp;&nbsp;🚀 Features
+
+- **auth**:
+  - 防止多次刷新token &nbsp;-&nbsp; by @eAliwei [<samp>(0eaa3)</samp>](https://github.com/honghuangdc/soybean-admin/commit/0eaa327)
+- **hooks**:
+  - add useHookTable &nbsp;-&nbsp; by @honghuangdc [<samp>(b3ae7)</samp>](https://github.com/honghuangdc/soybean-admin/commit/b3ae760)
+- **projects**:
+  - add websocket demo &nbsp;-&nbsp; by @honghuangdc [<samp>(af53e)</samp>](https://github.com/honghuangdc/soybean-admin/commit/af53ec7)
+  - add switch for customize darkmode transition &nbsp;-&nbsp; by @honghuangdc [<samp>(6e0cc)</samp>](https://github.com/honghuangdc/soybean-admin/commit/6e0cce4)
+  - new i18n function $t & login page and setting drawer config i18n &nbsp;-&nbsp; by @honghuangdc [<samp>(854d0)</samp>](https://github.com/honghuangdc/soybean-admin/commit/854d0bc)
+  - add plugin-web-update-notification &nbsp;-&nbsp; by @honghuangdc [<samp>(c9164)</samp>](https://github.com/honghuangdc/soybean-admin/commit/c91644b)
+
+### &nbsp;&nbsp;&nbsp;🐞 Bug Fixes
+
+- **components**:
+  - 修复动态路由主页404 &nbsp;-&nbsp; by @lapislazulisch [<samp>(3ae19)</samp>](https://github.com/honghuangdc/soybean-admin/commit/3ae1952)
+  - 修复动态路由home页404 &nbsp;-&nbsp; by @lapislazulisch [<samp>(ad6ac)</samp>](https://github.com/honghuangdc/soybean-admin/commit/ad6ac72)
+- **projects**:
+  - fix set tab title (fixed #256) &nbsp;-&nbsp; by @honghuangdc in https://github.com/honghuangdc/soybean-admin/issues/256 [<samp>(13f6c)</samp>](https://github.com/honghuangdc/soybean-admin/commit/13f6cd8)
+  - correct the lang file name & add recommend vscode plugin i18n-ally &nbsp;-&nbsp; by @honghuangdc [<samp>(864ec)</samp>](https://github.com/honghuangdc/soybean-admin/commit/864ec47)
+  - fix reload button animate &nbsp;-&nbsp; by @honghuangdc [<samp>(41f23)</samp>](https://github.com/honghuangdc/soybean-admin/commit/41f2338)
+- **styles**:
+  - 用户管理页面布局自适应屏幕高度 (fixed #253) &nbsp;-&nbsp; by @honghuangdc in https://github.com/honghuangdc/soybean-admin/issues/253 [<samp>(0f7b9)</samp>](https://github.com/honghuangdc/soybean-admin/commit/0f7b9d5)
+
+### &nbsp;&nbsp;&nbsp;🔥 Performance
+
+- **hooks**:
+  - perf use-table &nbsp;-&nbsp; by @honghuangdc [<samp>(33180)</samp>](https://github.com/honghuangdc/soybean-admin/commit/3318041)
+  - perf useHookTable &nbsp;-&nbsp; by @honghuangdc [<samp>(809fa)</samp>](https://github.com/honghuangdc/soybean-admin/commit/809fa85)
+- **projects**:
+  - add type declaration for document startViewTransition &nbsp;-&nbsp; by @honghuangdc [<samp>(d3ebe)</samp>](https://github.com/honghuangdc/soybean-admin/commit/d3ebe95)
+
+### &nbsp;&nbsp;&nbsp;💅 Refactors
+
+- **projects**:
+  - 生产环境缓存主题变更为sessionStorage &nbsp;-&nbsp; by @honghuangdc [<samp>(c46a5)</samp>](https://github.com/honghuangdc/soybean-admin/commit/c46a592)
+  - add reCacheRoute method &nbsp;-&nbsp; by @honghuangdc [<samp>(f92ee)</samp>](https://github.com/honghuangdc/soybean-admin/commit/f92ee77)
+  - update soybean domain &nbsp;-&nbsp; by @honghuangdc [<samp>(073fd)</samp>](https://github.com/honghuangdc/soybean-admin/commit/073fd16)
+
+### &nbsp;&nbsp;&nbsp;📖 Documentation
+
+- **projects**:
+  - update README.md logo &nbsp;-&nbsp; by @honghuangdc [<samp>(19141)</samp>](https://github.com/honghuangdc/soybean-admin/commit/19141a7)
+  - update Docker deployment method &nbsp;-&nbsp; by @snowords [<samp>(00da0)</samp>](https://github.com/honghuangdc/soybean-admin/commit/00da000)
+  - update git hooks init command &nbsp;-&nbsp; by @snowords [<samp>(7f35e)</samp>](https://github.com/honghuangdc/soybean-admin/commit/7f35e87)
+  - update README.md &nbsp;-&nbsp; by @eltociear [<samp>(93ed5)</samp>](https://github.com/honghuangdc/soybean-admin/commit/93ed5ad)
+
+### &nbsp;&nbsp;&nbsp;🏡 Chore
+
+- **deps**:
+  - update deps &nbsp;-&nbsp; by @honghuangdc [<samp>(bba68)</samp>](https://github.com/honghuangdc/soybean-admin/commit/bba68bf)
+  - update deps &nbsp;-&nbsp; by @honghuangdc [<samp>(0e6d2)</samp>](https://github.com/honghuangdc/soybean-admin/commit/0e6d289)
+  - update deps &nbsp;-&nbsp; by @honghuangdc [<samp>(135ce)</samp>](https://github.com/honghuangdc/soybean-admin/commit/135ce77)
+  - update deps &nbsp;-&nbsp; by @honghuangdc [<samp>(44ba3)</samp>](https://github.com/honghuangdc/soybean-admin/commit/44ba327)
+  - update deps &nbsp;-&nbsp; by @honghuangdc [<samp>(9296e)</samp>](https://github.com/honghuangdc/soybean-admin/commit/9296e69)
+  - update deps &nbsp;-&nbsp; by @honghuangdc [<samp>(751de)</samp>](https://github.com/honghuangdc/soybean-admin/commit/751ded4)
+  - update deps &nbsp;-&nbsp; by @honghuangdc [<samp>(305d9)</samp>](https://github.com/honghuangdc/soybean-admin/commit/305d956)
+- **projects**:
+  - update deps and fix swiper &nbsp;-&nbsp; by @honghuangdc [<samp>(9d105)</samp>](https://github.com/honghuangdc/soybean-admin/commit/9d1051b)
+  - update package.json &nbsp;-&nbsp; by @honghuangdc [<samp>(d7aea)</samp>](https://github.com/honghuangdc/soybean-admin/commit/d7aea9d)
+  - update deps & fix eslint code &nbsp;-&nbsp; by @honghuangdc [<samp>(08e0c)</samp>](https://github.com/honghuangdc/soybean-admin/commit/08e0cf5)
+  - update pnpm-lock.yaml &nbsp;-&nbsp; by @honghuangdc [<samp>(94644)</samp>](https://github.com/honghuangdc/soybean-admin/commit/9464473)
+  - update VSCode setting &nbsp;-&nbsp; by @honghuangdc [<samp>(56c77)</samp>](https://github.com/honghuangdc/soybean-admin/commit/56c770c)
+  - correct the word spell &nbsp;-&nbsp; by @honghuangdc [<samp>(458e3)</samp>](https://github.com/honghuangdc/soybean-admin/commit/458e387)
+  - correct word spell & eslint fix code &nbsp;-&nbsp; by @honghuangdc [<samp>(cffc3)</samp>](https://github.com/honghuangdc/soybean-admin/commit/cffc30a)
+  - When tab is switched, keep the page without refreshing &nbsp;-&nbsp; by @linjiangl [<samp>(83f25)</samp>](https://github.com/honghuangdc/soybean-admin/commit/83f2514)
+
+### &nbsp;&nbsp;&nbsp;🎨 Styles
+
+- **projects**:
+  - unify card border radius, 16px to 8px &nbsp;-&nbsp; by @honghuangdc [<samp>(cbda4)</samp>](https://github.com/honghuangdc/soybean-admin/commit/cbda4a3)
+  - update default theme color &nbsp;-&nbsp; by @honghuangdc [<samp>(43ac2)</samp>](https://github.com/honghuangdc/soybean-admin/commit/43ac23f)
+  - prettier format code &nbsp;-&nbsp; by @honghuangdc [<samp>(24cf1)</samp>](https://github.com/honghuangdc/soybean-admin/commit/24cf1d9)
+
+### &nbsp;&nbsp;&nbsp;❤️ Contributors
+
+[![honghuangdc](https://github.com/honghuangdc.png?size=48)](https://github.com/honghuangdc)&nbsp;&nbsp;[![eltociear](https://github.com/eltociear.png?size=48)](https://github.com/eltociear)&nbsp;&nbsp;[![linjiangl](https://github.com/linjiangl.png?size=48)](https://github.com/linjiangl)&nbsp;&nbsp;[![lapislazulisch](https://github.com/lapislazulisch.png?size=48)](https://github.com/lapislazulisch)&nbsp;&nbsp;[![snowords](https://github.com/snowords.png?size=48)](https://github.com/snowords)&nbsp;&nbsp;[![eAliwei](https://github.com/eAliwei.png?size=48)](https://github.com/eAliwei)&nbsp;&nbsp;[![honghuangdc](https://github.com/honghuangdc.png?size=48)](https://github.com/honghuangdc)&nbsp;&nbsp;
+
 ## [v0.10.3](https://github.com/honghuangdc/soybean-admin/compare/v0.10.2...v0.10.3) (23-06-15)
 
 ### &nbsp;&nbsp;&nbsp;🐞 Bug Fixes

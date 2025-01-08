@@ -1,29 +1,19 @@
-interface Window {
-  $loadingBar?: import('naive-ui').LoadingBarProviderInst;
-  $dialog?: import('naive-ui').DialogProviderInst;
-  $message?: import('naive-ui').MessageProviderInst;
-  $notification?: import('naive-ui').NotificationProviderInst;
+export {};
+
+declare global {
+  export interface Window {
+    /** NProgress instance */
+    NProgress?: import('nprogress').NProgress;
+    /** Loading bar instance */
+    $loadingBar?: import('naive-ui').LoadingBarProviderInst;
+    /** Dialog instance */
+    $dialog?: import('naive-ui').DialogProviderInst;
+    /** Message instance */
+    $message?: import('naive-ui').MessageProviderInst;
+    /** Notification instance */
+    $notification?: import('naive-ui').NotificationProviderInst;
+  }
+
+  /** Build time of the project */
+  export const BUILD_TIME: string;
 }
-
-interface ViewTransition {
-  ready: Promise<void>;
-}
-
-interface Document {
-  startViewTransition?: (callback: () => Promise<void> | void) => ViewTransition;
-}
-
-/** 通用类型 */
-declare namespace Common {
-  /**
-   * 策略模式
-   * [状态, 为true时执行的回调函数]
-   */
-  type StrategyAction = [boolean, () => void];
-
-  /** 选项数据 */
-  type OptionWithKey<K> = { value: K; label: string };
-}
-
-/** 构建时间 */
-declare const PROJECT_BUILD_TIME: string;

@@ -1,56 +1,48 @@
+import process from 'node:process';
+import { URL, fileURLToPath } from 'node:url';
 import { defineConfig, loadEnv } from 'vite';
-import { createViteProxy, getRootPath, getSrcPath, setupVitePlugins, viteDefine } from './build';
-import { getServiceEnvConfig } from './.env-config';
+import { setupVitePlugins } from './build/plugins';
+import { createViteProxy, getBuildTime } from './build/config';
 
 export default defineConfig(configEnv => {
-  const viteEnv = loadEnv(configEnv.mode, process.cwd()) as unknown as ImportMetaEnv;
+  const viteEnv = loadEnv(configEnv.mode, process.cwd()) as unknown as Env.ImportMeta;
 
-  const rootPath = getRootPath();
-  const srcPath = getSrcPath();
+  const buildTime = getBuildTime();
 
-  const isOpenProxy = viteEnv.VITE_HTTP_PROXY === 'Y';
-  const envConfig = getServiceEnvConfig(viteEnv);
+  const enableProxy = configEnv.command === 'serve' && !configEnv.isPreview;
 
   return {
     base: viteEnv.VITE_BASE_URL,
     resolve: {
       alias: {
-        '~': rootPath,
-        '@': srcPath,
-        'vue-i18n': 'vue-i18n/dist/vue-i18n.cjs.js'
+        '~': fileURLToPath(new URL('./', import.meta.url)),
+        '@': fileURLToPath(new URL('./src', import.meta.url))
       }
     },
-    define: viteDefine,
-    plugins: setupVitePlugins(viteEnv),
     css: {
       preprocessorOptions: {
         scss: {
-          additionalData: `@use "./src/styles/scss/global.scss" as *;`
+          api: 'modern-compiler',
+          additionalData: `@use "@/styles/scss/global.scss" as *;`
         }
       }
     },
+    plugins: setupVitePlugins(viteEnv, buildTime),
+    define: {
+      BUILD_TIME: JSON.stringify(buildTime)
+    },
     server: {
       host: '0.0.0.0',
-      port: 3200,
+      port: 9527,
       open: true,
-      proxy: createViteProxy(isOpenProxy, envConfig)
+      proxy: createViteProxy(viteEnv, enableProxy)
     },
-    optimizeDeps: {
-      include: [
-        '@antv/data-set',
-        '@antv/g2',
-        '@better-scroll/core',
-        'echarts',
-        'swiper',
-        'swiper/vue',
-        'vditor',
-        'wangeditor',
-        'xgplayer'
-      ]
+    preview: {
+      port: 9725
     },
     build: {
       reportCompressedSize: false,
-      sourcemap: false,
+      sourcemap: viteEnv.VITE_SOURCE_MAP === 'Y',
       commonjsOptions: {
         ignoreTryCatch: false
       }

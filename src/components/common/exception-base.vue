@@ -1,31 +1,43 @@
-<template>
-  <div class="flex-col-center gap-24px min-h-520px wh-full overflow-hidden">
-    <div class="flex text-400px text-primary">
-      <icon-local-no-permission v-if="type === '403'" />
-      <icon-local-not-found v-if="type === '404'" />
-      <icon-local-service-error v-if="type === '500'" />
-    </div>
-    <router-link :to="{ name: routeHomePath }">
-      <n-button type="primary">回到首页</n-button>
-    </router-link>
-  </div>
-</template>
-
 <script lang="ts" setup>
-import { routeName } from '@/router';
+import { computed } from 'vue';
+import { $t } from '@/locales';
+import { useRouterPush } from '@/hooks/common/router';
 
 defineOptions({ name: 'ExceptionBase' });
 
 type ExceptionType = '403' | '404' | '500';
 
 interface Props {
-  /** 异常类型 403 404 500 */
+  /**
+   * Exception type
+   *
+   * - 403: no permission
+   * - 404: not found
+   * - 500: service error
+   */
   type: ExceptionType;
 }
 
-defineProps<Props>();
+const props = defineProps<Props>();
 
-const routeHomePath = routeName('root');
+const { routerPushByKey } = useRouterPush();
+
+const iconMap: Record<ExceptionType, string> = {
+  '403': 'no-permission',
+  '404': 'not-found',
+  '500': 'service-error'
+};
+
+const icon = computed(() => iconMap[props.type]);
 </script>
+
+<template>
+  <div class="size-full min-h-520px flex-col-center gap-24px overflow-hidden">
+    <div class="flex text-400px text-primary">
+      <SvgIcon :local-icon="icon" />
+    </div>
+    <NButton type="primary" @click="routerPushByKey('root')">{{ $t('common.backToHome') }}</NButton>
+  </div>
+</template>
 
 <style scoped></style>

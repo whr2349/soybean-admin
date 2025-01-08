@@ -1,19 +1,35 @@
 import type { ProxyOptions } from 'vite';
+import { createServiceConfig } from '../../src/utils/service';
 
 /**
- * 设置网络代理
- * @param isOpenProxy - 是否开启代理
- * @param envConfig - env环境配置
+ * Set http proxy
+ *
+ * @param env - The current env
+ * @param enable - If enable http proxy
  */
-export function createViteProxy(isOpenProxy: boolean, envConfig: ServiceEnvConfigWithProxyPattern) {
-  if (!isOpenProxy) return undefined;
+export function createViteProxy(env: Env.ImportMeta, enable: boolean) {
+  const isEnableHttpProxy = enable && env.VITE_HTTP_PROXY === 'Y';
 
-  const proxy: Record<string, string | ProxyOptions> = {
-    [envConfig.proxyPattern]: {
-      target: envConfig.url,
-      changeOrigin: true,
-      rewrite: path => path.replace(new RegExp(`^${envConfig.proxyPattern}`), '')
-    }
+  if (!isEnableHttpProxy) return undefined;
+
+  const { baseURL, proxyPattern, other } = createServiceConfig(env);
+
+  const proxy: Record<string, ProxyOptions> = createProxyItem({ baseURL, proxyPattern });
+
+  other.forEach(item => {
+    Object.assign(proxy, createProxyItem(item));
+  });
+
+  return proxy;
+}
+
+function createProxyItem(item: App.Service.ServiceConfigItem) {
+  const proxy: Record<string, ProxyOptions> = {};
+
+  proxy[item.proxyPattern] = {
+    target: item.baseURL,
+    changeOrigin: true,
+    rewrite: path => path.replace(new RegExp(`^${item.proxyPattern}`), '')
   };
 
   return proxy;
